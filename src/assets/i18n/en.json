@@ -1,5 +1,9 @@
 {
   "toolbar": {
-    "home": "Home"
+    "Menu": "Menu",
+    "home": "Inicio",
+    "program": "Program",
+    "videos": "Videos",
+    "infographics": "Infographics"
   }
 }

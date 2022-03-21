@@ -7,18 +7,20 @@
   margin: 0;
   padding: 0;
   // background: rgba(182, 2, 96, 1);
-  background: rgba(169, 134, 9, 1);
+  // background: rgba(169, 134, 9, 1);
+  background: #304c9c;
 
   .hamburguer {
     display: none;
     transition: color 0.2s linear;
-  }
-
-  .hamburguer:hover {
     color: white;
   }
 
-  .list {
+  .hamburguer:hover {
+    color: rgb(153, 255, 0);
+  }
+
+  .tb_list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +31,7 @@
 
   }
 
-  .list li {
+  .tb_list li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,14 +41,18 @@
 
   }
 
-  .list li a {
-    color: black;
+  .tb_list li a {
+    color: white;
     text-decoration: none;
     transition: color 0.2s linear;
   }
 
-  .list li a:hover {
-    color: white;
+  .tb_list li a:hover {
+    color: rgb(153, 255, 0);
+  }
+
+  .tb_list .tb_list_title {
+    display: none;
   }
 
   .logos {
@@ -72,13 +78,14 @@
     width: 180px;
     height: 40px;
   }
-  .toolbar .list li a {
+  .toolbar .tb_list li a {
     font-size: 12px;
   }
 }
 
 @media screen and (max-width: 680px) {
   .toolbar {
+    position: fixed;
     height: 80px;
     padding: 0 25px;
     justify-content: space-between;
@@ -95,11 +102,47 @@
     .imgDiscapacidad {
       height: 70px;
     }
-    .list {
-      display: none;
+    .tb_list {
+      // display: none;
+      position: fixed;
+      flex-direction: column;
+      justify-content: flex-start;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 80%;
+      max-width: 350px;
+      background: rgba(48, 76, 156, 0.8);
     }
-    .list li {
-      padding: 0 10px;
+    .tb_list li {
+      width: 100%;
+      height: 60px;
+      padding: 0;
+      background: rgba(0, 0, 0, 0.7);
+    }
+    .tb_list li:hover {
+      width: 100%;
+      background: rgba(34, 56, 118, 0.8);
+    }
+    .tb_list li a {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      padding: 0 20px;
+      font-size: 16px;
+      // border-bottom: solid 1px gray;
+    }
+    .tb_list .tb_list_title {
+      display: flex;
+      justify-content: flex-start;
+      color: white;
+      height: 80px;
+      font-size: 20px;
+      padding: 0 20px;
+      border-bottom: solid 1px white;
+      background-color: #17285b;
+      pointer-events: none;
     }
     .logos {
       display: flex;

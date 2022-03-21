@@ -1,0 +1,17 @@
+.app_container {
+  padding: 0;
+  margin: 0;
+  min-height: calc(100vh - 100px);
+}
+
+.app_content {
+  margin: 0;
+  padding: 0;
+  // background: pink;
+}
+
+@media screen and (max-width: 680px) {
+  .app_content {
+    padding-top: 80px;
+  }
+}

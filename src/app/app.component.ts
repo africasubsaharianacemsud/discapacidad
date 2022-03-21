@@ -7,7 +7,8 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'disacpacidad';
+  public title = 'disacpacidad';
+  public isToolbarHiden: boolean = false;
 
   constructor(private translate: TranslateService) {
     if(!document.cookie.includes('lang')) {
@@ -22,5 +23,18 @@ export class AppComponent {
   public setAppLanguage = (lang: string) => {
     this.translate.setDefaultLang(lang);
     // this.translate.use(this.translate.getBrowserLang()!);
+  }
+
+  public hideToolbar = (e: Event) => {
+    // console.log(this.hideToolbar)
+    const element: HTMLInputElement = e.target as HTMLInputElement;
+    const className: string = element.className;
+    if(!className.includes('tb') && !className.includes('hamburguer')) {
+      this.isToolbarHiden = true;
+    }
+  }
+
+  public showToolbar = (isHidden: boolean) =>  {
+    this.isToolbarHiden = isHidden;
   }
 }
