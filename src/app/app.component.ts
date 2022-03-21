@@ -29,8 +29,10 @@ export class AppComponent {
     // console.log(this.hideToolbar)
     const element: HTMLInputElement = e.target as HTMLInputElement;
     const className: string = element.className;
-    if(!className.includes('tb') && !className.includes('hamburguer')) {
-      this.isToolbarHiden = true;
+    if(window.innerWidth <= 680) {
+      if(!className.includes('tb') && !className.includes('hamburguer')) {
+        this.isToolbarHiden = true;
+      }
     }
   }
 
