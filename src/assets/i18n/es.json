@@ -5,5 +5,10 @@
     "program": "Programa",
     "videos": "Videos",
     "infographics": "Infografías"
+  },
+  "footer":{
+    "Social": "Redes Sociales",
+    "Copy":" Derechos reservados ",
+    "Contact-tittle":"CONTACT US"
   }
 }
