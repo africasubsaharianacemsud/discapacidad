@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './principal/home/home.component';
+import { InfografiaComponent} from './principal/infografia/infografia.component';
 
 const routes: Routes = [
   // {
@@ -19,6 +20,11 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+
+  {
+    path: 'infographic',
+    component: InfografiaComponent
   },
   // {
   //   path: 'home',

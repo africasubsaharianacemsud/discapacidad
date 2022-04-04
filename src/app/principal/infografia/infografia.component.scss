@@ -1,0 +1,17 @@
+.info-card{
+    min-height: 400px;
+    background-color: #66B32E;
+
+}
+.card-body{
+    display: none;
+} 
+.info-card:hover{
+    .card-body{
+        display: block ;
+    } 
+
+    .event-day{
+        display: none;
+    }
+}
