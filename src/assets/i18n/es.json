@@ -4,7 +4,8 @@
     "home": "Inicio",
     "program": "Programa",
     "videos": "Videos",
-    "infographics": "Infografías"
+    "infographics": "Infografías",
+    "credits": "Creditos"
   },
   "footer":{
     "Social": "Redes Sociales",
@@ -13,5 +14,12 @@
   },
   "infographic":{
     "title": "Infographics"
+  },
+  "Credits":{
+    "rector": "Rector",
+    "gen-sec": "Secretario General",
+    "sec-admin": "Secretario de administración",
+    "sec-dev": "Secretario de desarrollo institucional"
   }
+
 }
