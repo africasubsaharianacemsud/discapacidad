@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './principal/home/home.component';
 import { InfografiaComponent} from './principal/infografia/infografia.component';
+import { CreditsComponent } from './principal/credits/credits.component';
 
 const routes: Routes = [
   // {
@@ -25,6 +26,10 @@ const routes: Routes = [
   {
     path: 'infographic',
     component: InfografiaComponent
+  },
+  {
+    path: 'credits',
+    component: CreditsComponent
   },
   // {
   //   path: 'home',
