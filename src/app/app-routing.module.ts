@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './principal/home/home.component';
+import { InfographicsComponent } from './principal/infographics/infographics.component';
 
 const routes: Routes = [
-  // {
-  //   path: 'conf',
-  //   redirectTo: 'configuraciones'
-  // },
+  {
+    path: 'inf',
+    redirectTo: 'infographics'
+  },
   // {
   //   path: 'sec',
   //   redirectTo: 'configuraciones/seguridad'
@@ -20,10 +21,10 @@ const routes: Routes = [
     path: '',
     component: HomeComponent
   },
-  // {
-  //   path: 'home',
-  //   component: PrincipalComponent
-  // },
+  {
+    path: 'infographics',
+    component: InfographicsComponent
+  },
   // {
   //   path: 'oldevents',
   //   component: PastEventsComponent

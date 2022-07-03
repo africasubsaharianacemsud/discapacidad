@@ -1,0 +1,232 @@
+.container-fluid {
+  flex-direction: column;
+  // background-color: green;
+  max-width: 2000px;
+  overflow: auto;
+
+  .presentation_container {
+    display: flex;
+    padding-top: 20px;
+    // background: orange;
+
+    img {
+      display: block;
+      padding: 20px;
+      padding-left: 50px;
+      min-width: 40%;
+      // background: red;
+    }
+
+    .carousel {
+      display: flex;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      // background: purple;
+
+      .carousel_text {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        // bottom: 0;
+        overflow: hidden;
+        // background-color: yellow;
+
+        .text_card {
+          min-width: 100%;
+          height: 100%;
+          padding: 40px;
+          text-align: justify;
+          text-justify: inter-word;
+          margin: 0;
+          // overflow: auto;
+          // background: grey;
+        }
+      }
+
+      .carousel_position {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        margin: 0;
+        bottom: 0;
+        // background: yellow;
+
+        .fa-circle {
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+
+  .introduction_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+
+    h4 {
+      text-align: justify;
+      text-justify: inter-word;
+      max-width: 1000px;
+      margin-top: 20px;
+    }
+  }
+
+  .icons_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // background-color: gray;
+
+    .icons_row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      min-width: 300px;
+      margin: 0;
+      padding: 0;
+
+      .icon {
+        cursor: pointer;
+        min-width: 150px;
+      }
+
+      .icon:hover {
+        opacity: 0.85;
+      }
+    }
+
+    .icons_modal {
+      display: flex;
+      position: fixed;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      background: rgba(4, 4, 4, 0.4);
+
+      .icons_description {
+        width: 50%;
+        max-width: 500px;
+        height: 300px;
+        border-radius: 5px;
+        padding: 20px;
+        border: 2px solid rgb(43, 43, 203);
+        background: white;
+
+        .title {
+          text-align: center;
+          margin-bottom: 30px;
+        }
+
+        .description {
+          text-align: justify;
+          text-justify: inter-word;
+          overflow: auto;
+        }
+
+        img {
+          display: block;
+          margin: 20px auto 0 auto;
+        }
+      }
+
+      // .icons_description::before {
+      //   position: absolute;
+      //   top: calc( 50% - 175px );
+      //   width: 50px;
+      //   height: 50px;
+      //   content: 'x';
+      //   background-color: red;
+      //   border-radius: 100px;
+      //   z-index: 1000000;
+      // }
+    }
+  }
+
+  .programa_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+
+    .programa_images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      img {
+        width: 100%;
+        max-width: 800px;
+      }
+    }
+
+//     .programa_tab {
+//       display: flex;
+//       width: 100%;
+//       height: 1000px;
+//       overflow: hidden;
+//
+//
+//       .row_tab {
+//         width: 33.3%;
+//         border-top: solid 1px black;
+//         border-right: solid 1px black;
+//
+//       }
+//
+//       .row_tab:last-child {
+//         border-right: none;
+//       }
+//     }
+  }
+
+
+}
+
+@media screen and (max-width: 1100px) {
+
+  h2 {
+    font-size: 22px !important;
+  }
+  h4 {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .presentation_container {
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 85%;
+        padding: 20px;
+      }
+
+      .carousel {
+        height: 550px;
+
+        .text_card {
+          padding: 10px !important;
+        }
+      }
+    }
+
+    .introduction_container {
+      padding: 100px 20px;
+    }
+  }
+}

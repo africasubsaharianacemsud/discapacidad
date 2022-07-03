@@ -1,0 +1,26 @@
+<div *ngIf="visible">
+  <div class="card__father">
+    <div class="card">
+      <div class="card__front" style="background-image: url({{imgSource}});">
+        <img alt="icon" src="/assets/iconos/Discapacidad-auditiva-50-x-50.jpg"/>
+        <div class="bg"></div>
+        <div class="body__card_front">
+          <h1><small>{{day}}</small></h1>
+        </div>
+      </div>
+      <div class="card__back">
+        <div class="body__card_back bg-filter">
+          <h1>{{title}}</h1>
+          <p>{{description}}</p>
+          <div class="calendar" *ngIf="calendar.length > 0">
+            <a target="_blank"href="{{calendar[0]}}">
+              <img border="0" src="{{calendar[1]}}">
+            </a>
+          </div>
+          <input [class.calendarInput]="calendar.length > 0"
+            type="button" value="{{eventBn}}" (click)="changeLocation()">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

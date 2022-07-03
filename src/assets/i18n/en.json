@@ -1,9 +1,60 @@
 {
+  "prefixUrlImg": "/assets/img/en/{{image}}",
   "toolbar": {
-    "Menu": "Menu",
-    "home": "Inicio",
-    "program": "Program",
-    "videos": "Videos",
-    "infographics": "Infographics"
+    "Menu": "Menú",
+    "home": "Home",
+    "capsules": "Capsules",
+    "discussions": "Discussions",
+    "infographics": "Infographics",
+    "news": "News",
+    "credits": "Credits",
+    "logo": "/assets/img/en/Disability-color-blanco.png"
+  },
+  "footer": {
+    "Social": "Social Links ",
+    "Copy":" All rights reserved ",
+    "Contact-tittle":"CONTACT US"
+  },
+  "principal": {
+    "home": {
+      "logo": "/assets/img/en/Disability-color-invertido.png",
+      "welcome": {
+        "title": "Welcome",
+        "text": "The UNAM-South Africa Mexican Studies Centre welcomes you to this space dedicated to disability awareness at university. The project’s goal is to compare conditions for disabled students in Mexico and South Africa, specifically between the National Autonomous University of Mexico (UNAM) and The University of the Witwatersrand (Wits).\n\n\nnHere you will find materials from our disability seminar entitled ‘Mexico and South Africa: A multidisciplinary approach to disability’ dedicated to showcasing disability-inclusive improvements in university facilities and their educational processes."
+      },
+      "south_africa": {
+        "title": "South African Context",
+        "text": "Apartheid South Africa was marked not only by political struggles but social activism too. One focused on securing recognition of the disabled. Since then, the South African government has created specialised departments to ensure respect for the human rights of minorities, including people with disabilities. The mission, however, is far from over.\n\n\nWits University’s outstanding Disability Rights Unit (DRU) is responsible for supporting students with disabilities in both academic and non-academic activities, and runs a constant information campaign about the difficulties disabled students encounter in order to raise awareness, both within and without the university."
+      },
+      "mexico": {
+        "title": "Mexico Context",
+        "text": "Did you know that according to INEGI data, in its 2020 census, 4.9% of  Mexico’s population suffers from some type of disability?\n\nThe most recent data shows that 50% are women. In Mexico, disability is also a relevant issue that concerns the government, as evinced in the Political Constitution of the United States of Mexico, in its articles 1 (No discrimination), and 4 (economic support for disabled people by law).\n\n\nUNAM, as Mexico’s most prestigious academic institution, finds itself obliged to seek means of improving the access of the disabled to a quality education, of fostering inclusion, and of ensuring the human rights of all students."
+      },
+      "general": {
+        "title": "General Context",
+        "text": "Did you know that 15% of the world’s population suffers from some type of disability?\n\nThe World Health Organization (WHO) defines the disabled as ‘people who suffer some health problem (for example, brain paralysis, Down syndrome, or depression)’ and disability as ‘personal and environmental agents (for example, negative attitudes, inadequate public facilities, or limited social support)’.\n\n\nThis project explores disabled students’ experience within the university context, specifically in academia, culture, and sports. The icons below indicate the type of disability each event addresses, so we invite you to learn more by hovering over them to view the various events we have prepared for you."
+      }
+    },
+    "infographics": {
+      "title": "Infographics"
+    }
+  },
+  "icons": {
+    "visual": {
+      "title": "Visual impairment",
+      "description": "A condition directly affecting image perception partially or totally."
+    },
+    "hearing": {
+      "title": "Hearing impairment",
+      "description": "The absence, decrease, or loss of the ability to hear somewhere in the hearing system."
+    },
+    "motor": {
+      "title": "Motor disability",
+      "description": "An alteration of the motor system making it difficult or impossible to develop capacities that allow participation in day-to-day activities."
+    },
+    "intellectual": {
+      "title": "Intellectual disability",
+      "description": "Significant limitations both in the structure of reasoned thought and adaptive behavior."
+    }
   }
 }

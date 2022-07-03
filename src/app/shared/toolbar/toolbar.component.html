@@ -3,21 +3,27 @@
     (click)="openToolbar()"></i>
   <div class="logos">
     <img class="imgCEM" src="/assets/img/logounamfooter.png" alt="logo-cem" width="250px" height="50px"/>
-    <img class="imgDiscapacidad" src="/assets/img/es/Discapacidad-logo-blanco.png" alt="logo-discapacidad" height="80px"/>
+    <img class="imgDiscapacidad" src="{{ 'toolbar.logo' | translate }}" alt="logo-discapacidad" height="80px"/>
   </div>
   <ul class="tb_list" [hidden]="hideToolbar">
     <li class="tb_list_title">{{ 'toolbar.Menu' | translate }}</li>
     <li>
-      <a class="tb_link" href="#">{{ 'toolbar.home' | translate }}</a>
+      <a class="tb_link" href="/">{{ 'toolbar.home' | translate }}</a>
     </li>
     <li>
-      <a class="tb_link" href="#">{{ 'toolbar.program' | translate }}</a>
+      <a class="tb_link" href="#">{{ 'toolbar.capsules' | translate }}</a>
     </li>
     <li>
-      <a class="tb_link" href="#">{{ 'toolbar.videos' | translate }}</a>
+      <a class="tb_link" href="#">{{ 'toolbar.discussions' | translate }}</a>
     </li>
     <li>
-      <a class="tb_link" href="#">{{ 'toolbar.infographics' | translate }}</a>
+      <a class="tb_link" href="/infographics">{{ 'toolbar.infographics' | translate }}</a>
+    </li>
+    <li>
+      <a class="tb_link" href="#">{{ 'toolbar.news' | translate }}</a>
+    </li>
+    <li>
+      <a class="tb_link" href="#">{{ 'toolbar.credits' | translate }}</a>
     </li>
   </ul>
 </nav>

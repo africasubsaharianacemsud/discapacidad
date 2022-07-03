@@ -1,6 +1,89 @@
 .footer {
   margin: 0;
   height: 100px;
+  height: auto;
   width: 100%;
-  background: red;
+  overflow: hidden;
+  background: #2A4B9B;
+
+  .footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    padding: 20px;
+    padding-top: 0;
+    overflow: hidden;
+
+    p {
+      color:white;
+      text-align: center;
+    }
+
+    .column_container {
+      width: 33.3%;
+    }
+    .logo_container{
+      display: flex;
+      align-items: center;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+          width: 70%;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+.footer-link  {
+  color: white;
+  padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 850px) {
+  .column_container {
+    width: 50% !important;
+  }
+  .copy {
+    display: none;
+  }
+  .copy_hidden {
+    display: block !important;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .fa-brands {
+    font-size: 20px;
+  }
+  .logo_container {
+    width: 100% !important;
+    justify-content: center;
+
+    a {
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 60% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .column_container {
+    width: 100% !important;
+  }
+  .logo_container a img {
+    width: 70% !important;
+  }
 }

@@ -1,28 +1,83 @@
 <div class="container-fluid">
-  <h2>home works!</h2>
-  <div>
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <br  />
-    <p>Prueba</p>
+  <div class="presentation_container">
+    <img alt="logo" src="{{ 'prefixUrlImg' | translate: {
+      image: 'Disability-color-invertido.png'
+    } }}"/>
+    <div class="carousel">
+      <div class="carousel_text">
+        <div class="text_card">
+          <h4 class="text_content">
+            <b>{{ 'principal.home.welcome.title' | translate }}</b>
+            <br/>
+            <br/>
+            {{ 'principal.home.welcome.text' | translate }}
+          </h4>
+        </div>
+        <div class="text_card">
+          <h4 class="text_content">
+            <b>{{ 'principal.home.south_africa.title' | translate }}</b>
+            <br/>
+            <br/>
+            {{ 'principal.home.south_africa.text' | translate }}
+          </h4>
+        </div>
+        <div class="text_card">
+          <h4 class="text_content">
+            <b>{{ 'principal.home.mexico.title' | translate }}</b>
+            <br/>
+            <br/>
+            {{ 'principal.home.mexico.text' | translate }}
+          </h4>
+        </div>
+      </div>
+      <div class="carousel_position">
+        <i class="fa-solid fa-circle"></i>
+        <i class="fa-regular fa-circle"></i>
+        <i class="fa-regular fa-circle"></i>
+        <i class="fa-regular fa-circle"></i>
+      </div>
+    </div>
   </div>
+
+  <div class="introduction_container">
+    <h2>{{ 'principal.home.general.title' | translate }}</h2>
+    <h4 class="text_content">{{ 'principal.home.general.text' | translate }}</h4>
+  </div>
+
+  <div class="icons_container">
+    <div class="icons_row">
+      <img class="icon" alt="icon" src="/assets/iconos/Discapacidad-auditiva-150-x-150.jpg"/>
+      <img class="icon" alt="icon" src="/assets/iconos/Discapacidad-visual-150-x-150.jpg"/>
+    </div>
+    <div class="icons_row">
+      <img class="icon" alt="icon" src="/assets/iconos/Discapacidad-física-150-x-150.jpg"/>
+      <img class="icon" alt="icon" src="/assets/iconos/Discapacidad-intelectual-150-x-150.jpg"/>
+    </div>
+  </div>
+
+  <div class="programa_container">
+    <h1 class="title">PROGRAMA</h1>
+    <div class="programa_images">
+      <img alt="logo" src="{{ 'prefixUrlImg' | translate: {
+        image: 'Discapacidad-general.png'
+      } }}"/>
+      <img alt="logo" src="{{ 'prefixUrlImg' | translate: {
+        image: 'Programa-septiembre.png'
+      } }}"/>
+    </div>
+    <!-- <div class="programa_tab">
+      <div class="row_tab"></div>
+      <div class="row_tab"></div>
+      <div class="row_tab"></div>
+    </div> -->
+  </div>
+
+  <!-- <div class="card_container">
+    <app-card
+      [title]="'Título'"
+      [altImg]="'Descripción Imagen'"
+      [imgSource]="'/assets/img/es/Discapacidad-logo-colores-invertidos.png'"
+      >
+    </app-card>
+  </div> -->
 </div>

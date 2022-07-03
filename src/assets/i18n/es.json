@@ -1,9 +1,60 @@
 {
+  "prefixUrlImg": "/assets/img/es/{{image}}",
   "toolbar": {
     "Menu": "Menú",
     "home": "Inicio",
-    "program": "Programa",
-    "videos": "Videos",
-    "infographics": "Infografías"
+    "capsules": "Cápsulas",
+    "discussions": "Conversatorios",
+    "infographics": "Infografías",
+    "news": "Noticias",
+    "credits": "Creditos",
+    "logo": "/assets/img/es/Disability-color-blanco.png"
+  },
+  "footer": {
+    "Social": "Redes Sociales",
+    "Copy":" Derechos reservados ",
+    "Contact-tittle":"CONTACT US"
+  },
+  "principal": {
+    "home": {
+      "logo": "/assets/img/es/Disability-color-invertido.png",
+      "welcome": {
+        "title": "Bienvenidos",
+        "text": "El Centro de Estudios Mexicanos UNAM-Sudáfrica, se complace en darles la bienvenida a este espacio dedicado al conocimiento y visibilidad de las personas con discapacidad en un entorno universitario. El objetivo es mostrar lo que se hace en México y Sudáfrica, particularmente en la Universidad Nacional Autónoma de México (UNAM) y la Universidad de Witwatersrand (Wits).\n\n\nAquí, encontrarás los materiales desarrollados para la jornada “México y Sudáfrica: Una mirada multidisciplinaria a la discapacidad”, enfocados en mostrar las adaptaciones tecnológicas, educativas, culturales y deportivas, así como la mejora de los espacios y las instalaciones universitarias para tener un proceso de enseñanza-aprendizaje que sea incluyente con los y las estudiantes universitarios que tienen alguna discapacidad."
+      },
+      "south_africa": {
+        "title": "Contexto en Sudáfrica",
+        "text": "El Apartheid llevó a Sudáfrica a diferentes luchas, no sólo políticas, sino también sociales, una de ellas se centró en abogar por el reconocimiento de las personas con discapacidad. Desde entonces, el gobierno sudafricano ha creado departamentos especializados que garanticen el respeto de los derechos humanos de las minorías, donde se incluyen las personas con discapacidad, sin embargo, aún hay bastante camino por recorrer.\n\n\nLa Universidad de Wits destaca gracias a su departamento de Disability Rights Unit (DRU), el cual se encarga de acompañar  a estudiantes universitarios con discapacidad, en procesos tanto académicos como no académicos, además de mantener un flujo constante de información sobre las dificultades que viven estas personas.El objetivo es crear consciencia, no sólo en los espacios de la Universidad de Wits, si no también fuera de ella."
+      },
+      "mexico": {
+        "title": "Contexto en México",
+        "text": "¿Sabías que según datos del INEGI, en su censo del 2020, el 4.9% de la población mexicana padece algún tipo de discapacidad? De la cifra anterior, el 50% está compuesto por mujeres. En México, la discapacidad es un tema relevante que concierne al gobierno, esto se ve plasmado en la Constitución Política de los Estados Unidos Mexicanos, principalmente en los artículos 1º (No discriminación), y el 4º (Apoyos económicos a personas que tengan alguna discapacidad según la Ley).\n\n\nLa UNAM, siendo una de las instituciones académicas con mayor reconocimiento en México,  se una a la preocupación generalizada, de poder contar con procesos que mejoren la accesibilidad de las personas con discapacidad a una educación digna y de calidad, todo esto con el objetivo de generar una inclusión y hacer valer los Derechos Humanos de todas las y los estudiantes universitarios."
+      },
+      "general": {
+        "title": "Contexto General",
+        "text": "¿Sabías que el 15% de la población mundial tiene algún tipo de discapacidad?\n\n\nLa Organización Mundial de la Salud (OMS) considera discapacitadas a “las personas que tienen algún problema de salud (por ejemplo, parálisis cerebral, síndrome de Down y depresión) y factores personales y ambientales (por ejemplo, actitudes negativas, transporte y edificios públicos inaccesibles y apoyo social limitado)”.\n\n\nEste proyecto, tiene como objetivo conversar acerca del contexto universitario por el que atraviesan las personas que tienen algún tipo de discapacidad, específicamente en las áreas de academia, cultura y deportes. Los iconos que se presentan a continuación servirán cómo guía para saber el tipo de discapacidad que se aborda en cada evento, así que te invitamos a que conozcas más colocando el cursor sobre ellos y revisando los diferentes eventos que preparamos para ti."
+      }
+    },
+    "infographics": {
+      "title": "Infografías"
+    }
+  },
+  "icons": {
+    "visual": {
+      "title": "Discapacidad visual",
+      "description": "Es una condición que afecta directamente la percepción de imágenes en forma total o parcial."
+    },
+    "hearing": {
+      "title": "Discapacidad auditiva",
+      "description": "Es la falta, disminución o pérdida de la capacidad para oír en algún lugar del aparato auditivo."
+    },
+    "motor": {
+      "title": "Discapacidad motriz",
+      "description": "Es la alteración del aparato motor que dificulta o imposibilita el desarrollo de capacidades que permitan participar en actividades propias de la vida cotidiana."
+    },
+    "intellectual": {
+      "title": "Discapacidad intelectual",
+      "description": "Se caracteriza por limitaciones significativas tanto en la estructura del pensamiento razonada, como en la conducta adaptativa de la persona."
+    }
   }
 }
