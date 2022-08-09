@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ServiceInfoService } from '../service-info.service';
 
 @Component({
   selector: 'app-card',
@@ -8,6 +10,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
   @Input() imgSource = '';
+  @Input() iconSource = '';
   @Input() altImg = '';
   @Input() day = '';
   @Input() title = '';
@@ -16,13 +19,27 @@ export class CardComponent implements OnInit {
   @Input() eventBn = '';
   @Input() visible: boolean = true;
   @Input() calendar: string[] = [];
+  @Input() disability!: string;
 
-  constructor() { }
+  constructor(
+    private infoService: ServiceInfoService,
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
   }
 
   public changeLocation = () => {
-    location.href = this.event;
+    if(this.event) {
+      location.href = this.event;
+      return
+    }
+    this.infoService.title = this.title;
+    this.infoService.description = this.description;
+    this.infoService.imgSource = this.imgSource;
+    this.infoService.altImg = this.altImg;
+    this.infoService.iconSource = this.iconSource;
+    this.infoService.disability = this.disability;
+    this.router.navigateByUrl('/seeinfo');
   }
 }

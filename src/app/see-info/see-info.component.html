@@ -1,0 +1,21 @@
+<div class="icons_container">
+  <div class="showIcons">
+    <img alt="icon" src="{{ iconSource }}" (click)="showModal()"/>
+  </div>
+</div>
+
+<div class="info_content">
+  <div class="info">
+    <h1>{{ title }}</h1>
+    <h3>{{ description }}</h3>
+    <img alt="{{ altImg }}" src="{{ imgSource }}"/>
+  </div>
+</div>
+
+<div class="icons_modal" (click)="closeModal()">
+  <div class="icons_description">
+    <h2 class="title">{{ title_icon }}</h2>
+    <h3 class="description">{{ description_icon }}</h3>
+    <img alt="icon" src="{{ image_icon }}"/>
+  </div>
+</div>

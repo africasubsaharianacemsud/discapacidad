@@ -1,12 +1,14 @@
 {
   "prefixUrlImg": "/assets/img/en/{{image}}",
+  "prefixUrlpdf": "/assets/pdfs/{{pdf}}",
   "toolbar": {
     "Menu": "Menú",
     "home": "Home",
-    "capsules": "Capsules",
+    "videos": "Videos",
     "discussions": "Discussions",
     "infographics": "Infographics",
     "news": "News",
+    "tools": "Tools",
     "credits": "Credits",
     "logo": "/assets/img/en/Disability-color-blanco.png"
   },
@@ -35,26 +37,122 @@
         "text": "Did you know that 15% of the world’s population suffers from some type of disability?\n\nThe World Health Organization (WHO) defines the disabled as ‘people who suffer some health problem (for example, brain paralysis, Down syndrome, or depression)’ and disability as ‘personal and environmental agents (for example, negative attitudes, inadequate public facilities, or limited social support)’.\n\n\nThis project explores disabled students’ experience within the university context, specifically in academia, culture, and sports. The icons below indicate the type of disability each event addresses, so we invite you to learn more by hovering over them to view the various events we have prepared for you."
       }
     },
+    "capsules": {
+      "title": "Videos",
+      "videos": {
+        "title": "Learn about the history of disability inclusion in South Africa and about the Paralympics. Also, don't miss the differences between Mexican and South African sign language."
+      }
+    },
     "infographics": {
-      "title": "Infographics"
+      "title": "Infographics",
+      "description": "In this section you will find information on the inclusion of disability in various areas of life, as well as meeting people with disabilities who have overcome great challenges to achieve their dreams.",
+      "2022": {
+        "may": {
+          "barbara_wetzel": {
+            "title": "Bárbara Wetzel",
+            "description": "Is a Mexican gymnastics champion with Down Syndrome\n\nParticiped in the Down Syndrome International Gymnastics Organization World Championship."
+          },
+          "esclerosis": {
+            "title": "World Multiple Sclerosis Day",
+            "description": "Multiple sclerosis, one of the most terrible neurological diseases"
+          },
+          "paco": {
+            "title": "Paco de la Fuente",
+            "description": "He won the Ariel Award for Best Male Revelation\n\nHe is the first actor with Down Syndrome to do so"
+          }
+        },
+        "june": {
+          "baston": {
+            "title": "International White Cane Safety Day",
+            "description": "The white cane is a device that allows visually impaired people live"
+          },
+          "senias": {
+            "title": "Mexican and South African sign languages",
+            "description": "Mexican Sign Language (MSL) is the certified language for communication between deaf people in Mexico"
+          }
+        }
+      }
+    },
+    "news": {
+      "title": "Notes and publications",
+      "description": "Read the publications derived from this event and learn about the importance of talking about disability in Mexico and South Africa.",
+      "2022": {
+        "august": {
+          "discapacidad": {
+            "title": "A Multidisciplinary View on Disabilities",
+            "description": "A Multidisciplinary View on Disabilities\n\nAuthor: Vianca Banessa Aranda Mendoza"
+          },
+          "vianca": {
+            "title": "Beyond borders",
+            "description": "Graduate of the Faculty of Philosophy and Letters tells her experience in that country and tells a life story"
+          }
+        }
+      }
+    },
+    "tools": {
+      "title": "Tools",
+      "videos": {
+        "title": "How to activate the narrator?",
+        "description": {
+          "macos": "Instructions for activating the narrator in macOS",
+          "windows": "Instructions for activating the narrator in Windows",
+          "ios": "Instructions to activate the narrator on iOS cell phones",
+          "android": "Instructions to activate the narrator on Android cell phones"
+        }
+      }
     }
   },
   "icons": {
     "visual": {
       "title": "Visual impairment",
-      "description": "A condition directly affecting image perception partially or totally."
+      "description": "A condition directly affecting image perception partially or totally.",
+      "img": "/assets/iconos/Discapacidad-visual-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-visual-50-x-50.jpg"
     },
     "hearing": {
       "title": "Hearing impairment",
-      "description": "The absence, decrease, or loss of the ability to hear somewhere in the hearing system."
+      "description": "The absence, decrease, or loss of the ability to hear somewhere in the hearing system.",
+      "img": "/assets/iconos/Discapacidad-auditiva-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-auditiva-50-x-50.jpg"
     },
     "motor": {
       "title": "Motor disability",
-      "description": "An alteration of the motor system making it difficult or impossible to develop capacities that allow participation in day-to-day activities."
+      "description": "An alteration of the motor system making it difficult or impossible to develop capacities that allow participation in day-to-day activities.",
+      "img": "/assets/iconos/Discapacidad-física-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-física-50-x-50.jpg"
     },
     "intellectual": {
       "title": "Intellectual disability",
-      "description": "Significant limitations both in the structure of reasoned thought and adaptive behavior."
+      "description": "Significant limitations both in the structure of reasoned thought and adaptive behavior.",
+      "img": "/assets/iconos/Discapacidad-intelectual-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-intelectual-50-x-50.jpg"
     }
+  },
+  "buttons": {
+    "event": "Event",
+    "showInfographic": "Show Infographic"
+  },
+  "month": {
+    "January": "January",
+    "February": "February",
+    "March": "March",
+    "April": "April",
+    "May": "May",
+    "June": "June",
+    "July": "July",
+    "August": "August",
+    "September": "September",
+    "October": "October",
+    "November": "November",
+    "December": "December"
+  },
+  "day": {
+    "Monday": "Monday",
+    "Tuesday": "Tuesday",
+    "Wednesday": "Wednesday",
+    "Thursday": "Thursday",
+    "Friday": "Friday",
+    "Saturday": "Saturday",
+    "Sunday": "Sunday"
   }
 }

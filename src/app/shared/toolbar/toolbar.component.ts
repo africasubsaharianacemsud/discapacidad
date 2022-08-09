@@ -12,7 +12,7 @@ export class ToolbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    if(window.innerWidth <= 680) {
+    if(window.innerWidth <= 765) {
       this.hideToolbar = true;
     }
   }
@@ -24,7 +24,7 @@ export class ToolbarComponent implements OnInit {
 
   @HostListener('window:resize', ['$event.target.innerWidth'])
   onResize(width: number): void {
-    if(width > 680)
+    if(width > 765)
       this.hideToolbar = false;
     else
       this.hideToolbar = true;

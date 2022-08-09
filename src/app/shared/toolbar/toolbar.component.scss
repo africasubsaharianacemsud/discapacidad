@@ -8,6 +8,7 @@
   padding: 0;
   // background: rgba(182, 2, 96, 1);
   // background: rgba(169, 134, 9, 1);
+  z-index: 1;
   background: #304c9c;
 
   .hamburguer {
@@ -84,6 +85,12 @@
     width: 10px;
     height: 20px;
   }
+  .imgDiscapacidad {
+    margin: 12px !important;
+  }
+  .toolbar .tb_list li a {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -100,7 +107,7 @@
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 750px) {
   .toolbar {
     position: fixed;
     height: 80px;

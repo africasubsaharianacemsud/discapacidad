@@ -1,12 +1,14 @@
 {
   "prefixUrlImg": "/assets/img/es/{{image}}",
+  "prefixUrlpdf": "/assets/pdfs/{{pdf}}",
   "toolbar": {
     "Menu": "Menú",
     "home": "Inicio",
-    "capsules": "Cápsulas",
+    "videos": "Videos",
     "discussions": "Conversatorios",
     "infographics": "Infografías",
     "news": "Noticias",
+    "tools": "Herramientas",
     "credits": "Creditos",
     "logo": "/assets/img/es/Disability-color-blanco.png"
   },
@@ -28,33 +30,129 @@
       },
       "mexico": {
         "title": "Contexto en México",
-        "text": "¿Sabías que según datos del INEGI, en su censo del 2020, el 4.9% de la población mexicana padece algún tipo de discapacidad? De la cifra anterior, el 50% está compuesto por mujeres. En México, la discapacidad es un tema relevante que concierne al gobierno, esto se ve plasmado en la Constitución Política de los Estados Unidos Mexicanos, principalmente en los artículos 1º (No discriminación), y el 4º (Apoyos económicos a personas que tengan alguna discapacidad según la Ley).\n\n\nLa UNAM, siendo una de las instituciones académicas con mayor reconocimiento en México,  se una a la preocupación generalizada, de poder contar con procesos que mejoren la accesibilidad de las personas con discapacidad a una educación digna y de calidad, todo esto con el objetivo de generar una inclusión y hacer valer los Derechos Humanos de todas las y los estudiantes universitarios."
+        "text": "¿Sabías que según datos del INEGI, en su censo del 2020, el 4.9% de la población mexicana padece algún tipo de discapacidad? De la cifra anterior, el 50% está compuesto por mujeres. En México, la discapacidad es un tema relevante que concierne al gobierno, esto se ve plasmado en la Constitución Política de los Estados Unidos Mexicanos, principalmente en los artículos 1º (No discriminación), y el 4º (Apoyos económicos a personas que tengan alguna discapacidad según la Ley).\n\n\nLa UNAM, como una de las instituciones académicas con mayor reconocimiento en México,  se una a la preocupación generalizada, de poder contar con procesos que mejoren la accesibilidad de las personas con discapacidad a una educación digna y de calidad, todo esto con el objetivo de generar una inclusión y hacer valer los Derechos Humanos de todas las y los estudiantes universitarios."
       },
       "general": {
         "title": "Contexto General",
         "text": "¿Sabías que el 15% de la población mundial tiene algún tipo de discapacidad?\n\n\nLa Organización Mundial de la Salud (OMS) considera discapacitadas a “las personas que tienen algún problema de salud (por ejemplo, parálisis cerebral, síndrome de Down y depresión) y factores personales y ambientales (por ejemplo, actitudes negativas, transporte y edificios públicos inaccesibles y apoyo social limitado)”.\n\n\nEste proyecto, tiene como objetivo conversar acerca del contexto universitario por el que atraviesan las personas que tienen algún tipo de discapacidad, específicamente en las áreas de academia, cultura y deportes. Los iconos que se presentan a continuación servirán cómo guía para saber el tipo de discapacidad que se aborda en cada evento, así que te invitamos a que conozcas más colocando el cursor sobre ellos y revisando los diferentes eventos que preparamos para ti."
       }
     },
+    "capsules": {
+      "title": "Videos",
+      "videos": {
+        "title": "Conoce la historia de la inclusión de la discapacidad en Sudáfrica y sobre los juegos paraolímpicos. Además, no te pierdas las diferencias entre la lengua de señas mexicana y sudafricana."
+      }
+    },
     "infographics": {
-      "title": "Infografías"
+      "title": "Infografías",
+      "description": "En esta sección podrás encontrar información sobre la inclusión de la discapacidad en diversas áreas de la vida, así como conocer a personas con discapacidad que han superado grandes retos para alcanzar sus sueños.",
+      "2022": {
+        "may": {
+          "barbara_wetzel": {
+            "title": "Bárbara Wetzel",
+            "description": "Campeona mexicana de gimnasia con Síndrome de Down\n\nParticipó en el campeonato mundial del Down Syndrome International Gymnastics Organization."
+          },
+          "esclerosis": {
+            "title": "Día de la esclerosis múltiple",
+            "description": "Esclerosis múltiple, una de las enfermedades neurológicas más temibles"
+          },
+          "paco": {
+            "title": "Paco de la Fuente",
+            "description": "Ganó el Premio Ariel como Mejor Revelación Masculina\n\nEs el primer actor con Síndrome de Down en hacerlo."
+          }
+        },
+        "june": {
+          "baston": {
+            "title": "Día internacional del Bastón Blanco",
+            "description": "Se trata de un instrumento que permite a las personas con discapacidad visual poder tener una vida autónoma"
+          },
+          "senias": {
+            "title": "Lengua de señas mexicana y sudafricana",
+            "description": "La Lengua de Señas Mexicana (LSM) es la lengua certificada para la comunicación de las personas sordas en México"
+          }
+        }
+      }
+    },
+    "news": {
+      "title": "Notas y publicaciones",
+      "description": "Lee las publicaciones derivadas de este evento y conoce la importancia de hablar sobre la discapacidad en México y Sudáfrica.",
+      "2022": {
+        "august": {
+          "discapacidad": {
+            "title": "Una mirada multidisciplinaria a la discapacidad",
+            "description": "Una mirada multidisciplinaria a la discapacidad\n\n Autor: Vianca Banessa Aranda Mendoza"
+          },
+          "vianca": {
+            "title": "Más allá de las fronteras",
+            "description": "Egresada de la Facultad de Filosofía y Letras cuenta su experiencia en aquel país y hace un relato de vida"
+          }
+        }
+      }
+    },
+    "tools": {
+      "title": "Herramientas",
+      "videos": {
+        "title": "¿Cómo activar el narrador?",
+        "description": {
+          "macos": "Intrucciones para activar el narrador en macOS",
+          "windows": "Intrucciones para activar el narrador en Windows",
+          "ios": "Intrucciones para activar el narrador en celulares iOS",
+          "android": "Intrucciones para activar el narrador en celulares Android"
+        }
+      }
     }
   },
   "icons": {
     "visual": {
       "title": "Discapacidad visual",
-      "description": "Es una condición que afecta directamente la percepción de imágenes en forma total o parcial."
+      "description": "Es una condición que afecta directamente la percepción de imágenes en forma total o parcial.",
+      "img": "/assets/iconos/Discapacidad-visual-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-visual-50-x-50.jpg"
     },
     "hearing": {
       "title": "Discapacidad auditiva",
-      "description": "Es la falta, disminución o pérdida de la capacidad para oír en algún lugar del aparato auditivo."
+      "description": "Es la falta, disminución o pérdida de la capacidad para oír en algún lugar del aparato auditivo.",
+      "img": "/assets/iconos/Discapacidad-auditiva-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-auditiva-50-x-50.jpg"
     },
     "motor": {
       "title": "Discapacidad motriz",
-      "description": "Es la alteración del aparato motor que dificulta o imposibilita el desarrollo de capacidades que permitan participar en actividades propias de la vida cotidiana."
+      "description": "Es la alteración del aparato motor que dificulta o imposibilita el desarrollo de capacidades que permitan participar en actividades propias de la vida cotidiana.",
+      "img": "/assets/iconos/Discapacidad-física-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-física-50-x-50.jpg"
     },
     "intellectual": {
       "title": "Discapacidad intelectual",
-      "description": "Se caracteriza por limitaciones significativas tanto en la estructura del pensamiento razonada, como en la conducta adaptativa de la persona."
+      "description": "Se caracteriza por limitaciones significativas tanto en la estructura del pensamiento razonada, como en la conducta adaptativa de la persona.",
+      "img": "/assets/iconos/Discapacidad-intelectual-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-intelectual-50-x-50.jpg"
     }
+  },
+  "buttons": {
+    "event": "Evento",
+    "showInfographic": "Ver infografía"
+  },
+  "month": {
+    "January": "Enero",
+    "February": "Febrero",
+    "March": "Marzo",
+    "April": "Abril",
+    "May": "Mayo",
+    "June": "Junio",
+    "July": "Julio",
+    "August": "Agosto",
+    "September": "Septiembre",
+    "October": "Octubre",
+    "November": "Noviembre",
+    "December": "Diciembre"
+  },
+  "day": {
+    "Monday": "Lunes",
+    "Tuesday": "Martes",
+    "Wednesday": "Miércoles",
+    "Thursday": "Jueves",
+    "Friday": "Viernes",
+    "Saturday": "Sábado",
+    "Sunday": "Domingo"
   }
 }

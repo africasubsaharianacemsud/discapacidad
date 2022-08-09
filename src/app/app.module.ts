@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 // Modules
 import { PrincipalModule } from './principal/principal.module';
 import { SharedModule } from './shared/shared.module';
+import { SeeInfoComponent } from './see-info/see-info.component';
 
 export const HttpLoaderFactory = (http: HttpClient) => {
   return new TranslateHttpLoader(http);
@@ -16,7 +17,8 @@ export const HttpLoaderFactory = (http: HttpClient) => {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SeeInfoComponent
   ],
   imports: [
     AppRoutingModule,

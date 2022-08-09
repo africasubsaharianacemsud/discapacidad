@@ -1,0 +1,25 @@
+* {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.credits_container {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+
+  .group {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h4 {
+    font-size: 16px;
+  }
+}

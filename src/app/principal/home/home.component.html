@@ -31,10 +31,9 @@
         </div>
       </div>
       <div class="carousel_position">
-        <i class="fa-solid fa-circle"></i>
-        <i class="fa-regular fa-circle"></i>
-        <i class="fa-regular fa-circle"></i>
-        <i class="fa-regular fa-circle"></i>
+        <i class="fa-solid fa-circle" (click)="carouselPos($event)" data="0"></i>
+        <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="1"></i>
+        <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="2"></i>
       </div>
     </div>
   </div>
@@ -46,12 +45,20 @@
 
   <div class="icons_container">
     <div class="icons_row">
-      <img class="icon" alt="icon" src="/assets/iconos/Discapacidad-auditiva-150-x-150.jpg"/>
-      <img class="icon" alt="icon" src="/assets/iconos/Discapacidad-visual-150-x-150.jpg"/>
+      <img (click)="showModal($event)" data="hearing" class="icon" alt="icon" src="{{ 'icons.hearing.img' | translate }}"/>
+      <img (click)="showModal($event)" data="visual" class="icon" alt="icon" src="{{ 'icons.visual.img' | translate }}"/>
     </div>
     <div class="icons_row">
-      <img class="icon" alt="icon" src="/assets/iconos/Discapacidad-física-150-x-150.jpg"/>
-      <img class="icon" alt="icon" src="/assets/iconos/Discapacidad-intelectual-150-x-150.jpg"/>
+      <img (click)="showModal($event)" data="motor" class="icon" alt="icon" src="{{ 'icons.motor.img' | translate }}"/>
+      <img (click)="showModal($event)" data="intellectual" class="icon" alt="icon" src="{{ 'icons.intellectual.img' | translate }}"/>
+    </div>
+
+    <div class="icons_modal" (click)="closeModal()">
+      <div class="icons_description">
+        <h2 class="title">{{ title }}</h2>
+        <h3 class="description">{{ description }}</h3>
+        <img alt="icon" src="{{ img }}"/>
+      </div>
     </div>
   </div>
 
@@ -62,22 +69,8 @@
         image: 'Discapacidad-general.png'
       } }}"/>
       <img alt="logo" src="{{ 'prefixUrlImg' | translate: {
-        image: 'Programa-septiembre.png'
+        image: 'programa.png'
       } }}"/>
     </div>
-    <!-- <div class="programa_tab">
-      <div class="row_tab"></div>
-      <div class="row_tab"></div>
-      <div class="row_tab"></div>
-    </div> -->
   </div>
-
-  <!-- <div class="card_container">
-    <app-card
-      [title]="'Título'"
-      [altImg]="'Descripción Imagen'"
-      [imgSource]="'/assets/img/es/Discapacidad-logo-colores-invertidos.png'"
-      >
-    </app-card>
-  </div> -->
 </div>
