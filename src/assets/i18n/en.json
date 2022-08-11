@@ -118,8 +118,8 @@
     "motor": {
       "title": "Motor disability",
       "description": "An alteration of the motor system making it difficult or impossible to develop capacities that allow participation in day-to-day activities.",
-      "img": "/assets/iconos/Discapacidad-física-150-x-150.jpg",
-      "icon": "/assets/iconos/Discapacidad-física-50-x-50.jpg"
+      "img": "/assets/iconos/Discapacidad-fisica-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-fisica-50-x-50.jpg"
     },
     "intellectual": {
       "title": "Intellectual disability",

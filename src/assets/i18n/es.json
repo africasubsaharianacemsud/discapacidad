@@ -118,8 +118,8 @@
     "motor": {
       "title": "Discapacidad motriz",
       "description": "Es la alteración del aparato motor que dificulta o imposibilita el desarrollo de capacidades que permitan participar en actividades propias de la vida cotidiana.",
-      "img": "/assets/iconos/Discapacidad-física-150-x-150.jpg",
-      "icon": "/assets/iconos/Discapacidad-física-50-x-50.jpg"
+      "img": "/assets/iconos/Discapacidad-fisica-150-x-150.jpg",
+      "icon": "/assets/iconos/Discapacidad-fisica-50-x-50.jpg"
     },
     "intellectual": {
       "title": "Discapacidad intelectual",
