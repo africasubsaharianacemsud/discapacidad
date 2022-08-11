@@ -96,8 +96,8 @@
         "description": {
           "macos": "Instructions for activating the narrator in macOS",
           "windows": "Instructions for activating the narrator in Windows",
-          "ios": "Instructions to activate the narrator on iOS cell phones",
-          "android": "Instructions to activate the narrator on Android cell phones"
+          "ios": "Instructions to activate the narrator on iOS",
+          "android": "Instructions to activate the narrator on Android"
         }
       }
     }
