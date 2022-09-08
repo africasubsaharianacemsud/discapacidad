@@ -1,1 +1,50 @@
-<p>discussions works!</p>
+<div class="container-fluid">
+  <h1 class="title">{{ 'principal.discussions.title' | translate }} 2022</h1>
+
+  <h3 class="description"
+  [innerHTML]="'principal.discussions.description' | translate: {
+    link: 'principal.home.registerLink' | translate
+  }"></h3>
+
+  <!-- Mayo-->
+  <div class="month_container">
+    <h2 class="month">{{"month.September" | translate}}</h2>
+
+    <div class="card_container">
+      <div class="card">
+        <h5>{{ 'principal.discussions.events.event1.title' | translate: {
+          day: 'day.Tuesday' | translate
+        } }}</h5>
+        <p [innerHTML]="'principal.discussions.events.event1.description' | translate"></p>
+      </div>
+
+      <div class="card">
+        <h5>{{ 'principal.discussions.events.event3.title' | translate: {
+          day: 'day.Tuesday' | translate
+        } }}</h5>
+        <p [innerHTML]="'principal.discussions.events.event3.description' | translate"></p>
+      </div>
+
+      <div class="card">
+        <h5>{{ 'principal.discussions.events.event4.title' | translate: {
+          day: 'day.Tuesday' | translate
+        } }}</h5>
+        <p [innerHTML]="'principal.discussions.events.event4.description' | translate"></p>
+      </div>
+
+      <div class="card">
+        <h5>{{ 'principal.discussions.events.event6.title' | translate: {
+          day: 'day.Tuesday' | translate
+        } }}</h5>
+        <p [innerHTML]="'principal.discussions.events.event6.description' | translate"></p>
+      </div>
+
+      <div class="card">
+        <h5>{{ 'principal.discussions.events.event7.title' | translate: {
+          day: 'day.Thursday' | translate
+        } }}</h5>
+        <p [innerHTML]="'principal.discussions.events.event7.description' | translate"></p>
+      </div>
+    </div>
+  </div>
+</div>

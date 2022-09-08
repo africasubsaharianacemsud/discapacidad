@@ -63,13 +63,23 @@
   </div>
 
   <div class="programa_container">
-    <h1 class="title">PROGRAMA</h1>
+    <h1 class="title">{{ 'principal.home.program' | translate }}</h1>
+
+    <h3 style="padding: 20px;">
+      <a href="{{ 'principal.home.registerLink' | translate }}">
+        {{ 'principal.home.register' | translate }}
+      </a>
+    </h3>
+
     <div class="programa_images">
       <img alt="logo" src="{{ 'prefixUrlImg' | translate: {
         image: 'Discapacidad-general.png'
       } }}"/>
       <img alt="logo" src="{{ 'prefixUrlImg' | translate: {
         image: 'programa.png'
+      } }}"/>
+      <img alt="logo" src="{{ 'prefixUrlImg' | translate: {
+        image: 'Programa-previo.png'
       } }}"/>
     </div>
   </div>

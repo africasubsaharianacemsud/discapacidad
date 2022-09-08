@@ -1,7 +1,10 @@
 <footer class="footer">
+  <div class="visit_counter">
+    <h6><b>{{ 'visits' | translate }}{{ counter }}</b></h6>
+  </div>
    <div class="footer_container">
      <div class="column_container logo_container">
-        <a href="/">
+        <a (click)="navigateTo('/')">
           <img src="/assets/img/logounamfooter.png" class = "logo-footer" alt="">
         </a>
       </div>
@@ -28,7 +31,7 @@
       <div class="column_container">
         <div class="container contact text-center">
           <p class="mt-3">{{'footer.Contact-tittle' | translate}}</p>
-          <a class="footer-link">cem@sudafrica.unam.mx</a>
+          <a class="footer-link">info@sudafrica.unam.mx</a>
           <p class="no-m">Endratch & Jorissen Street Johannesburgo</p>
           <a class="footer-link">+525512345678</a>
         </div>

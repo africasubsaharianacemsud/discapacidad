@@ -1,0 +1,67 @@
+.container-fluid {
+  max-width: 2000px;
+  padding: 0 20px;
+  overflow: auto;
+
+  .title {
+    margin-top: 10px;
+  }
+
+  .title, .description {
+    padding: 20px 40px;
+    text-align: justify;
+    text-justify: inter-word;
+    white-space: pre-wrap;
+  }
+
+  .month_container {
+    margin: 100px 0 50px 0;
+
+    .month {
+      text-align: center;
+    }
+
+    .card_container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      perspective: 1000px;
+
+      .card {
+        display: flex;
+        width: 80%;
+        max-width: 450px;
+        height: 200px;
+        border: 2px solid #304c9c;
+        border-radius: 5px;
+        background-color: rgba(48, 76, 156, 0.3);
+        padding: 10px;
+        margin: 20px;
+
+        h5 {
+          border-bottom: 1px solid black;
+          margin: 0;
+          text-align: justify;
+          text-justify: inter-word;
+          white-space: pre-wrap;
+        }
+
+        p {
+          height: 100%;
+          margin: 0;
+          padding-top: 10px;
+          text-align: justify;
+          text-justify: inter-word;
+          white-space: pre-wrap;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  h3 {
+    font-size: 20px;
+  }
+}

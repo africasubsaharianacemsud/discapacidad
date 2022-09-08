@@ -8,25 +8,31 @@
   <ul class="tb_list" [hidden]="hideToolbar">
     <li class="tb_list_title">{{ 'toolbar.Menu' | translate }}</li>
     <li>
-      <a class="tb_link" href="/">{{ 'toolbar.home' | translate }}</a>
+      <a class="tb_link" (click)="navigateTo('/')">{{ 'toolbar.home' | translate }}</a>
     </li>
     <li>
-      <a class="tb_link" href="/videos">{{ 'toolbar.videos' | translate }}</a>
+      <a class="tb_link" (click)="navigateTo('/videos')">{{ 'toolbar.videos' | translate }}</a>
     </li>
     <li>
-      <a class="tb_link" href="/discussions">{{ 'toolbar.discussions' | translate }}</a>
+      <a class="tb_link" (click)="navigateTo('/discussions')">{{ 'toolbar.discussions' | translate }}</a>
     </li>
     <li>
-      <a class="tb_link" href="/infographics">{{ 'toolbar.infographics' | translate }}</a>
+      <a class="tb_link" (click)="navigateTo('/infographics')">{{ 'toolbar.infographics' | translate }}</a>
     </li>
     <li>
-      <a class="tb_link" href="/news">{{ 'toolbar.news' | translate }}</a>
+      <a class="tb_link" (click)="navigateTo('/news')">{{ 'toolbar.news' | translate }}</a>
     </li>
     <li>
-      <a class="tb_link" href="/tools">{{ 'toolbar.tools' | translate }}</a>
+      <a class="tb_link" (click)="navigateTo('/tools')">{{ 'toolbar.tools' | translate }}</a>
     </li>
     <li>
-      <a class="tb_link" href="/credits">{{ 'toolbar.credits' | translate }}</a>
+      <a class="tb_link" (click)="navigateTo('/credits')">{{ 'toolbar.credits' | translate }}</a>
+    </li>
+    <li class="tb_button tb_list_button" (click)="changeLanguage()">
+      <a>{{ 'toolbar.changeLanguage' | translate }}</a>
     </li>
   </ul>
 </nav>
+<div class="tb_button" (click)="changeLanguage()">
+  <a>{{ 'toolbar.changeLanguage' | translate }}</a>
+</div>

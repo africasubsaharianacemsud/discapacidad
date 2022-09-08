@@ -10,7 +10,8 @@
     "news": "News",
     "tools": "Tools",
     "credits": "Credits",
-    "logo": "/assets/img/en/Disability-color-blanco.png"
+    "logo": "/assets/img/en/Disability-color-blanco.png",
+    "changeLanguage": "Change language to Spanish"
   },
   "footer": {
     "Social": "Social Links ",
@@ -22,20 +23,23 @@
       "logo": "/assets/img/en/Disability-color-invertido.png",
       "welcome": {
         "title": "Welcome",
-        "text": "The UNAM-South Africa Mexican Studies Centre welcomes you to this space dedicated to disability awareness at university. The project’s goal is to compare conditions for disabled students in Mexico and South Africa, specifically between the National Autonomous University of Mexico (UNAM) and The University of the Witwatersrand (Wits).\n\n\nnHere you will find materials from our disability seminar entitled ‘Mexico and South Africa: A multidisciplinary approach to disability’ dedicated to showcasing disability-inclusive improvements in university facilities and their educational processes."
+        "text": "The UNAM-South Africa Mexican Studies Centre welcomes you to this space dedicated to disability awareness at the university. The project’s goal is to compare conditions for disabled students in Mexico and South Africa, specifically between the National Autonomous University of Mexico (UNAM) and The University of the Witwatersrand (Wits). Here you will find materials from our disability seminar entitled ‘Mexico and South Africa: A multidisciplinary approach to disability’ dedicated to showcasing disability-inclusive improvements in university facilities and their educational processes."
       },
       "south_africa": {
         "title": "South African Context",
-        "text": "Apartheid South Africa was marked not only by political struggles but social activism too. One focused on securing recognition of the disabled. Since then, the South African government has created specialised departments to ensure respect for the human rights of minorities, including people with disabilities. The mission, however, is far from over.\n\n\nWits University’s outstanding Disability Rights Unit (DRU) is responsible for supporting students with disabilities in both academic and non-academic activities, and runs a constant information campaign about the difficulties disabled students encounter in order to raise awareness, both within and without the university."
+        "text": "Apartheid in South Africa was marked not only by political struggles but social activism too. One focused on securing recognition of the disabled. Since then, the South African government has created specialized departments to ensure respect for the human rights of minorities, including people with disabilities. The mission, however, is far from over. Wits University’s outstanding Disability Rights Unit (DRU) is responsible for supporting students with disabilities in both academic and non-academic activities and runs a constant information campaign about the difficulties disabled students encounter in order to raise awareness, both within and without the university."
       },
       "mexico": {
-        "title": "Mexico Context",
-        "text": "Did you know that according to INEGI data, in its 2020 census, 4.9% of  Mexico’s population suffers from some type of disability?\n\nThe most recent data shows that 50% are women. In Mexico, disability is also a relevant issue that concerns the government, as evinced in the Political Constitution of the United States of Mexico, in its articles 1 (No discrimination), and 4 (economic support for disabled people by law).\n\n\nUNAM, as Mexico’s most prestigious academic institution, finds itself obliged to seek means of improving the access of the disabled to a quality education, of fostering inclusion, and of ensuring the human rights of all students."
+        "title": "Mexican Context",
+        "text": "Did you know that according to INEGI data, in its 2020 census, 4.9% of Mexico’s population suffers from some type of disability? The most recent data shows that 50% are women. In Mexico, disability is also a relevant issue that concerns the government, as evinced in the Political Constitution of the United States of Mexico, in its articles 1 (No discrimination), and 4 (economic support for disabled people by law). UNAM, as Mexico’s most prestigious academic institution, finds itself obliged to seek means of improving the access of the disabled to quality education, fostering inclusion, and ensuring the human rights of all students."
       },
       "general": {
         "title": "General Context",
         "text": "Did you know that 15% of the world’s population suffers from some type of disability?\n\nThe World Health Organization (WHO) defines the disabled as ‘people who suffer some health problem (for example, brain paralysis, Down syndrome, or depression)’ and disability as ‘personal and environmental agents (for example, negative attitudes, inadequate public facilities, or limited social support)’.\n\n\nThis project explores disabled students’ experience within the university context, specifically in academia, culture, and sports. The icons below indicate the type of disability each event addresses, so we invite you to learn more by hovering over them to view the various events we have prepared for you."
-      }
+      },
+      "program": "PROGRAMME",
+      "register": "Register here!",
+      "registerLink": "https://forms.gle/JUveJM5nvzptWm5m8"
     },
     "capsules": {
       "title": "Videos",
@@ -43,32 +47,66 @@
         "title": "Learn about the history of disability inclusion in South Africa and about the Paralympics. Also, don't miss the differences between Mexican and South African sign language."
       }
     },
+    "discussions": {
+      "title": "Discussions",
+      "description": "UNAM-South Africa, in collaboration with the University of the Witwatersrand’s Disability Rights Unit, the Committee of Assistance for Disabled Persons (CAD, UNAM), the Assistance Unit for Disabled Persons (UNAPDI, UNAM), and the Unit of Computing and Information and Communication Technologies (DGTIC, UNAM), extends a cordial invitation to Disability Seminars 2022, Mexico and South Africa: A multidisciplinary approach to disability.\n\nThe inaugural event and keynote speeches, Overcoming the Challenges of Disability in Higher Education, will take place next Tuesday, September 6 at 16h00 (South Africa time). The event* will be streamed live on the <a href=\"https://www.facebook.com/CEMSUDAFRICA\">UNAM South Africa</a> Facebook page. If you would like to access the seminar in English through Zoom, please <a href=\"{{ link }}\">register here</a>.\n\n* This event is free and includes South African sign language interpreter.",
+      "events": {
+        "event1": {
+          "title": "{{day}} 6th at 16:00\n(Zoom and UNAM-South Africa Facebook)",
+          "description": "Inauguration and conference:\n<b>Overcoming the challenges of disability in higher education</b>."
+        },
+        "event2": {
+          "title": "{{day}} 12th\n(UNAM-South Africa Instagram and Facebook)",
+          "description": "Infographic:\n<b>National Disabled Women Day</b>."
+        },
+        "event3": {
+          "title": "{{day}} 13th at 16:00\n(Zoom and UNAM-South Africa Facebook)",
+          "description": "Roundtable:\n<b>Implementing inclusive architecture</b>."
+        },
+        "event4": {
+          "title": "{{day}} 20th at 16:00\n(Zoom and UNAM-South Africa Facebock)",
+          "description": "Roundtable:\n<b>Using technology to support disabled students in higher education</b>."
+        },
+        "event5": {
+          "title": "{{day}} 22nd\n(UNAM-South Africa Instagram and Facebook)",
+          "description": "Infographic:\n<b>UNAM literacy software designed for children with disabilities</b>."
+        },
+        "event6": {
+          "title": "{{day}} 27th at 16:00\n(Zoom and UNAM-South Africa Facebook)",
+          "description": "Roundtable:\n<b>Teaching Mexican and South African Sign Language</b>."
+        },
+        "event7": {
+          "title": "{{day}} 29th at 16:00\n(Zoom and UNAM-South Africa Facebook)",
+          "description": "Roundtable:\n<b>University admissions for disabled persons</b>."
+        }
+      }
+    },
     "infographics": {
       "title": "Infographics",
-      "description": "In this section you will find information on the inclusion of disability in various areas of life, as well as meeting people with disabilities who have overcome great challenges to achieve their dreams.",
+      "description": "In this section, you will find information on the inclusion of disability in various areas of life, as well as meeting people with disabilities who have overcome great challenges to achieve their dreams.",
       "2022": {
         "may": {
           "barbara_wetzel": {
             "title": "Bárbara Wetzel",
-            "description": "Is a Mexican gymnastics champion with Down Syndrome\n\nParticiped in the Down Syndrome International Gymnastics Organization World Championship."
+            "description": "Is a Mexican gymnastics champion with Down Syndrome.\n\nShe participated in the Down Syndrome International Gymnastics Organization World Championship."
           },
           "esclerosis": {
             "title": "World Multiple Sclerosis Day",
-            "description": "Multiple sclerosis, one of the most terrible neurological diseases"
+            "description": "Multiple sclerosis, one of the most terrible neurological diseases."
           },
           "paco": {
             "title": "Paco de la Fuente",
-            "description": "He won the Ariel Award for Best Male Revelation\n\nHe is the first actor with Down Syndrome to do so"
+            "description": "He won the Ariel Award for Best Male Revelation.\n\nHe is the first actor with Down Syndrome to do so."
           }
         },
         "june": {
           "baston": {
             "title": "International White Cane Safety Day",
-            "description": "The white cane is a device that allows visually impaired people live"
+            "description": "The white cane is a device that allows visually impaired people live an autonomous life."
           },
           "senias": {
             "title": "Mexican and South African sign languages",
-            "description": "Mexican Sign Language (MSL) is the certified language for communication between deaf people in Mexico"
+            "description": "Mexican Sign Language (MSL) is the certified language for communication between deaf people in Mexico."
           }
         }
       }
@@ -98,6 +136,12 @@
           "windows": "Instructions for activating the narrator in Windows",
           "ios": "Instructions to activate the narrator on iOS",
           "android": "Instructions to activate the narrator on Android"
+        },
+        "pdfs": {
+          "macos": "./assets/pdfs/manuals/en/manual_narrador_macOS.pdf",
+          "windows": "./assets/pdfs/manuals/en/manual_narrador_windows.pdf",
+          "ios": "./assets/pdfs/manuals/en/manual_narrador_iOS.pdf",
+          "android": "./assets/pdfs/manuals/en/manual_narrador_android.pdf"
         }
       }
     }
@@ -117,7 +161,7 @@
     },
     "motor": {
       "title": "Motor disability",
-      "description": "An alteration of the motor system making it difficult or impossible to develop capacities that allow participation in day-to-day activities.",
+      "description": "An alteration of the motor system that makes it difficult or impossible to develop capacities that allow participation in day-to-day activities.",
       "img": "/assets/iconos/Discapacidad-fisica-150-x-150.jpg",
       "icon": "/assets/iconos/Discapacidad-fisica-50-x-50.jpg"
     },
@@ -154,5 +198,6 @@
     "Friday": "Friday",
     "Saturday": "Saturday",
     "Sunday": "Sunday"
-  }
+  },
+  "visits": "Visits: "
 }

@@ -16,7 +16,7 @@ export class AppComponent {
       window.location.href = '/'
     } else {
       const startLang = document.cookie.indexOf("lang") + 5
-      const endLang = startLang + 7
+      const endLang = startLang + 2
       const lang = document.cookie.substring(startLang, endLang);
       this.setAppLanguage(lang);
     }

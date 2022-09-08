@@ -10,7 +10,8 @@
     "news": "Noticias",
     "tools": "Herramientas",
     "credits": "Creditos",
-    "logo": "/assets/img/es/Disability-color-blanco.png"
+    "logo": "/assets/img/es/Disability-color-blanco.png",
+    "changeLanguage": "Cambiar el idioma a inglés"
   },
   "footer": {
     "Social": "Redes Sociales",
@@ -35,12 +36,49 @@
       "general": {
         "title": "Contexto General",
         "text": "¿Sabías que el 15% de la población mundial tiene algún tipo de discapacidad?\n\n\nLa Organización Mundial de la Salud (OMS) considera discapacitadas a “las personas que tienen algún problema de salud (por ejemplo, parálisis cerebral, síndrome de Down y depresión) y factores personales y ambientales (por ejemplo, actitudes negativas, transporte y edificios públicos inaccesibles y apoyo social limitado)”.\n\n\nEste proyecto, tiene como objetivo conversar acerca del contexto universitario por el que atraviesan las personas que tienen algún tipo de discapacidad, específicamente en las áreas de academia, cultura y deportes. Los iconos que se presentan a continuación servirán cómo guía para saber el tipo de discapacidad que se aborda en cada evento, así que te invitamos a que conozcas más colocando el cursor sobre ellos y revisando los diferentes eventos que preparamos para ti."
-      }
+      },
+      "program": "PROGRAMA",
+      "register": "¡Registrate aquí!",
+      "registerLink": "https://forms.gle/n1RFkoSuubBiCvJk7"
     },
     "capsules": {
       "title": "Videos",
       "videos": {
         "title": "Conoce la historia de la inclusión de la discapacidad en Sudáfrica y sobre los juegos paraolímpicos. Además, no te pierdas las diferencias entre la lengua de señas mexicana y sudafricana."
+      }
+    },
+    "discussions": {
+      "title": "Conversatorios",
+      "description": "La UNAM Sudáfrica, en colaboración el Comité de Atención a personas con Discapacidad (CADUNAM), la Unidad de Atención para Personas con Discapacidad (UNAPDI UNAM),  la Dirección General de Cómputo y de Tecnologías de Información y Comunicación (DGTIC UNAM), y la Unidad de Derechos de Discapacidad de la Universidad de Witwatersrand, le extiende una cordial invitación a toda la comunidad universitaria y público en general a la Jornada en Discapacidad 2022, México y Sudáfrica: Una mirada multidisciplinaria a la discapacidad.\n\nEl evento inaugural y conferencia magistral, Superando los retos de la discapacidad en la educación superior, se llevará a cabo el próximo martes 6 de septiembre a las 9:00 am (hora de la Ciudad de México). El evento* será transmitido en vivo en la página de Facebook <a href=\"https://www.facebook.com/CEMSUDAFRICA\">UNAM Sudáfrica</a>. Si desea acceder al seminario a través de Zoom con traducción simultánea al español, por favor <a href=\"{{ link }}\">regístrese aquí</a>.\n\n* Este evento es gratuito y cuenta con intérprete de lengua de señas mexicana.",
+      "events": {
+        "event1": {
+          "title": "{{day}} 6 a las 9:00 am\n(Zoom y FB)",
+          "description": "Inauguración y conferencia:\n<b>Superando los retos de la discapacidad en la educación superior</b>."
+        },
+        "event2": {
+          "title": "{{day}} 12\n(IG y FB)",
+          "description": "Infografic:\n<b>Dia Nacional de las Mujeres con Discapacidad</b>."
+        },
+        "event3": {
+          "title": "{{day}} 13 a las 9:00 am\n(Zoom y FB)",
+          "description": "Mesa redonda:\n<b>La aplicación de la arquitectura incluyente</b>."
+        },
+        "event4": {
+          "title": "{{day}} 20 a las 9:00 am\n(Zoom y FB)",
+          "description": "Mesa redonda:\n<b>El uso de la tecnología en la educación superior en apoyo a la discapacidad</b>."
+        },
+        "event5": {
+          "title": "{{day}} 22\n(IG y FB)",
+          "description": "Infografía:\n<b>Programa de cómputo UNAM para aprender a leer y escribir, dirigido a niños con discapacidad</b>."
+        },
+        "event6": {
+          "title": "{{day}} 27 a las 9:00 am\n(Zoom y FB)",
+          "description": "Mesa redonda:\n<b>La enseñanza de la lengua de señas mexicana y sudafricana</b>."
+        },
+        "event7": {
+          "title": "{{day}} 29 a las 9:00 am\n(Zoom y FB)",
+          "description": "Mesa redonda:\n<b>La adimisión a la universidad para personas con discapacidad'</b>."
+        }
       }
     },
     "infographics": {
@@ -98,6 +136,12 @@
           "windows": "Intrucciones para activar el narrador en Windows",
           "ios": "Intrucciones para activar el narrador en iOS",
           "android": "Intrucciones para activar el narrador en  Android"
+        },
+        "pdfs": {
+          "macos": "./assets/pdfs/manuals/es/manual_narrador_macOS.pdf",
+          "windows": "./assets/pdfs/manuals/es/manual_narrador_windows.pdf",
+          "ios": "./assets/pdfs/manuals/es/manual_narrador_iOS.pdf",
+          "android": "./assets/pdfs/manuals/es/manual_narrador_android.pdf"
         }
       }
     }
@@ -154,5 +198,6 @@
     "Friday": "Viernes",
     "Saturday": "Sábado",
     "Sunday": "Domingo"
-  }
+  },
+  "visits": "Visitas: "
 }
