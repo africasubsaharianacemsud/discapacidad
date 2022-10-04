@@ -36,7 +36,6 @@ export class ToolbarComponent implements OnInit {
       lang = 'en'
     this.translate.setDefaultLang(lang);
     let newCookies = document.cookie.replace('lang=' + oldLang, 'lang=' + lang)
-    console.log(newCookies)
     document.cookie = newCookies
   }
 

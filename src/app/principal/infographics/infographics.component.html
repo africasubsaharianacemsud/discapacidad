@@ -84,4 +84,40 @@
       </app-card>
     </div>
   </div>
+
+
+  <!-- September-->
+  <div class="month_container">
+    <h2 class="month">{{"month.September" | translate}}</h2>
+
+    <div class="card_container">
+      <app-card
+      [title]="'principal.infographics.2022.september.woman_disability.title' | translate"
+      [day]="('day.Monday' | translate) + ' 30'"
+      [altImg]="'Descripción Imagen'"
+      [imgSource]="'prefixUrlImg' | translate: { image: 'september/discriminacion.jpg' }"
+      [iconSource]="'icons.intellectual.icon' | translate"
+      [disability]="'intellectual'"
+      [description]="'principal.infographics.2022.september.woman_disability.description' | translate"
+      [eventBn]="'buttons.showInfographic' | translate"
+      [event]="''"
+      [visible]="true"
+      >
+      </app-card>
+
+      <app-card
+      [title]="'principal.infographics.2022.september.software.title' | translate"
+      [day]="('day.Thursday' | translate) + ' 22'"
+      [altImg]="'Descripción Imagen'"
+      [imgSource]="'prefixUrlImg' | translate: { image: 'september/software.jpg' }"
+      [iconSource]="'icons.intellectual.icon' | translate"
+      [disability]="'intellectual'"
+      [description]="'principal.infographics.2022.september.software.description' | translate"
+      [eventBn]="'buttons.showInfographic' | translate"
+      [event]="''"
+      [visible]="true"
+      >
+      </app-card>
+    </div>
+  </div>
 </div>

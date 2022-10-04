@@ -108,6 +108,16 @@
             "title": "Mexican and South African sign languages",
             "description": "Mexican Sign Language (MSL) is the certified language for communication between deaf people in Mexico."
           }
+        },
+        "september": {
+          "woman_disability": {
+            "title": "National day of women with disability",
+            "description": "Day established in 2020 in honor of Mexican activist Gaby Brimmer."
+          },
+          "software": {
+            "title": "Learn and write",
+            "description": "UNAM-developed software teaches literacy to children with disabilities."
+          }
         }
       }
     },
@@ -174,6 +184,7 @@
   },
   "buttons": {
     "event": "Event",
+    "see_more": "See more",
     "showInfographic": "Show Infographic"
   },
   "month": {

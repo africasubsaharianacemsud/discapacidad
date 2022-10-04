@@ -108,6 +108,16 @@
             "title": "Lengua de señas mexicana y sudafricana",
             "description": "La Lengua de Señas Mexicana (LSM) es la lengua certificada para la comunicación de las personas sordas en México"
           }
+        },
+        "september": {
+          "woman_disability": {
+            "title": "Día nacional de las mujeres con discapacidad",
+            "description": "Día establecido en 2020 en honor a la activista mexicana Gaby Brimmer."
+          },
+          "software": {
+            "title": "Aprende y escribe",
+            "description": "La UNAM desarrolló un software para aprender a leer y escribir dirigido a niños con discapacidad"
+          }
         }
       }
     },
@@ -117,7 +127,7 @@
       "2022": {
         "august": {
           "discapacidad": {
-            "title": "Una mirada multidisciplinaria a la discapacidad",
+            "title": "Mirada multidisciplinaria",
             "description": "Una mirada multidisciplinaria a la discapacidad\n\n Autor: Vianca Banessa Aranda Mendoza"
           },
           "vianca": {
@@ -174,6 +184,7 @@
   },
   "buttons": {
     "event": "Evento",
+    "see_more": "Ver más",
     "showInfographic": "Ver infografía"
   },
   "month": {
