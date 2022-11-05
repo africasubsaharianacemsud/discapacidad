@@ -1,19 +1,14 @@
 <div class="carousel">
   <div class="carousel_text">
-    <div class="text_card" *ngFor="let ele of Arr(9).fill(1); let i = index">
+    <div class="text_card" *ngFor="let ele of Arr(21).fill(1); let i = index">
       <img src="/assets/momento_brujo/carousel/img{{i+1}}.jpg" />
     </div>
   </div>
   <div class="carousel_position">
     <i class="fa-solid fa-circle" (click)="carouselPos($event)" data="0"></i>
-    <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="1"></i>
-    <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="2"></i>
-    <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="3"></i>
-    <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="4"></i>
-    <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="5"></i>
-    <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="6"></i>
-    <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="7"></i>
-    <i class="fa-regular fa-circle" (click)="carouselPos($event)" data="8"></i>
+    <i *ngFor="let ele of Arr(20).fill(1); let i = index"
+      class="fa-regular fa-circle" (click)="carouselPos($event)" attr.data=" {{i + 1}}"
+    ></i>
   </div>
 </div>
 

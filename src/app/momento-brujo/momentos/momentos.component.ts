@@ -28,7 +28,7 @@ export class MomentosComponent implements OnInit {
   changeSlick = (element: HTMLElement) => {
     const slick = element.closest('.carousel_position')!.previousElementSibling as HTMLElement;
     const data: number = parseInt(element.getAttribute('data')!);
-    const floatPos = (slick!.scrollWidth / 9) * data;
+    const floatPos = (slick!.scrollWidth / 21) * data;
     slick!.scrollLeft = floatPos;
   }
 }
