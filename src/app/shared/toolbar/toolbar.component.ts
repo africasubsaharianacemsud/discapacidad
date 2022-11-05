@@ -41,6 +41,10 @@ export class ToolbarComponent implements OnInit {
 
   public navigateTo = (url: String) => {
     this.router.navigate([url]);
+
+    if(window.innerWidth <= 765) {
+      this.hideToolbar = true;
+    }
   }
 
   @HostListener('window:resize', ['$event.target.innerWidth'])

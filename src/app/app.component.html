@@ -1,9 +1,20 @@
+<div class="momento-background" *ngIf="router.url.includes('/momento-brujo')"></div>
 <div class="app_container" (click)="hideToolbar($event)">
-  <app-toolbar
+  <app-toolbar *ngIf="!router.url.includes('/momento-brujo')"
     [hideToolbar]="isToolbarHiden"
     (hideToolbarToParent)="showToolbar($event)"></app-toolbar>
+  <app-toolbar-momento *ngIf="router.url.includes('/momento-brujo')"
+    [hideToolbar]="isToolbarHiden"
+    (hideToolbarToParent)="showToolbar($event)"></app-toolbar-momento>
   <div class="app_content">
+    <div class="rounded-bn" (click)="navigateTo('/momento-brujo')" *ngIf="!router.url.includes('/momento-brujo')">
+      <img src="/assets/momento_brujo/logo.png" />
+    </div>
+    <div class="rounded-bn special-bn" (click)="navigateTo('/')" *ngIf="router.url.includes('/momento-brujo')">
+      <img src="{{ 'toolbar.logo' | translate }}" />
+    </div>
     <router-outlet></router-outlet>
   </div>
 </div>
-<app-footer></app-footer>
+<app-footer *ngIf="!router.url.includes('/momento-brujo')"></app-footer>
+<app-footer-momento *ngIf="router.url.includes('/momento-brujo')"></app-footer-momento>

@@ -47,6 +47,9 @@
     cursor: pointer;
     text-decoration: none;
     transition: color 0.2s linear;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .tb_list li a:hover {

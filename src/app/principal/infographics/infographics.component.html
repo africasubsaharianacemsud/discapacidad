@@ -120,4 +120,39 @@
       </app-card>
     </div>
   </div>
+
+  <!-- October-->
+  <div class="month_container">
+    <h2 class="month">{{"month.October" | translate}}</h2>
+
+    <div class="card_container">
+      <app-card
+      [title]="'principal.infographics.2022.october.flag.title' | translate"
+      [day]="('day.Monday' | translate) + ' 30'"
+      [altImg]="'Descripción Imagen'"
+      [imgSource]="'prefixUrlImg' | translate: { image: 'october/flag.jpg' }"
+      [iconSource]="'icons.motor.icon' | translate"
+      [disability]="'motor'"
+      [description]="'principal.infographics.2022.october.flag.description' | translate"
+      [eventBn]="'buttons.showInfographic' | translate"
+      [event]="''"
+      [visible]="true"
+      >
+      </app-card>
+
+      <app-card
+      [title]="'principal.infographics.2022.october.dawarfism.title' | translate"
+      [day]="('day.Thursday' | translate) + ' 22'"
+      [altImg]="'Descripción Imagen'"
+      [imgSource]="'prefixUrlImg' | translate: { image: 'october/dawarfism.jpg' }"
+      [iconSource]="'icons.motor.icon' | translate"
+      [disability]="'motor'"
+      [description]="'principal.infographics.2022.october.dawarfism.description' | translate"
+      [eventBn]="'buttons.showInfographic' | translate"
+      [event]="''"
+      [visible]="true"
+      >
+      </app-card>
+    </div>
+  </div>
 </div>

@@ -1,0 +1,29 @@
+<nav class="toolbar">
+  <i class="fa-solid fa-bars hamburguer"
+    (click)="openToolbar()"></i>
+  <div class="logos">
+    <img class="imgCEM" src="/assets/img/logounamfooter.png" alt="logo-cem" width="250px" height="50px"/>
+    <img class="imgDiscapacidad" src="/assets/momento_brujo/logo.png" alt="logo-discapacidad" height="65px"/>
+  </div>
+  <ul class="tb_list" [hidden]="hideToolbar">
+    <li class="tb_list_title">{{ 'toolbar.Menu' | translate }}</li>
+    <li>
+      <a class="tb_link" (click)="navigateTo('/momento-brujo')">{{ 'toolbar.home' | translate }}</a>
+    </li>
+    <li>
+      <a class="tb_link" (click)="navigateTo('/momento-brujo/biographics')">{{ 'toolbar.biographics' | translate }}</a>
+    </li>
+    <li>
+      <a class="tb_link" (click)="navigateTo('/momento-brujo/moments')">{{ 'toolbar.moments' | translate }}</a>
+    </li>
+    <li>
+      <a class="tb_link" (click)="navigateTo('/momento-brujo/credits')">{{ 'toolbar.credits' | translate }}</a>
+    </li>
+    <li class="tb_button tb_list_button" (click)="changeLanguage()">
+      <a>{{ 'toolbar.changeLanguage' | translate }}</a>
+    </li>
+  </ul>
+</nav>
+<div class="tb_button" (click)="changeLanguage()">
+  <a>{{ 'toolbar.changeLanguage' | translate }}</a>
+</div>

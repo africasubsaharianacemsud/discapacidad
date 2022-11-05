@@ -10,6 +10,8 @@ import { AppComponent } from './app.component';
 import { PrincipalModule } from './principal/principal.module';
 import { SharedModule } from './shared/shared.module';
 import { SeeInfoComponent } from './see-info/see-info.component';
+import { MomentoBrujoComponent } from './momento-brujo/momento-brujo.component';
+import { MomentoBrujoModule } from './momento-brujo/momento-brujo.module';
 
 export const HttpLoaderFactory = (http: HttpClient) => {
   return new TranslateHttpLoader(http);
@@ -18,12 +20,14 @@ export const HttpLoaderFactory = (http: HttpClient) => {
 @NgModule({
   declarations: [
     AppComponent,
-    SeeInfoComponent
+    SeeInfoComponent,
+    MomentoBrujoComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
+    MomentoBrujoModule,
     PrincipalModule,
     SharedModule,
     TranslateModule.forRoot({

@@ -1,0 +1,40 @@
+<footer class="footer">
+   <div class="footer_container">
+     <div class="column_container logo_container">
+        <a (click)="navigateTo('/')">
+          <img src="/assets/img/logounamfooter.png" class = "logo-footer" alt="">
+        </a>
+      </div>
+      <div class="column_container">
+        <p class="text-center mt-3">{{ 'footer.Social' | translate }}</p>
+        <div class="d-flex justify-content-center">
+          <a href="https://www.facebook.com/CEMSUDAFRICA" class="footer-link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/cemsudafrica" class="footer-link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCi9wijRTpAKrMkvOQ6NOs6A?view_as=subscriber" class="footer-link">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://www.instagram.com/unamsudafrica/" class="footer-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+        <p class="copy">
+          &copy;{{'footer.Copy' | translate}} CEM - SUDAFRICA 2022
+        </p>
+      </div>
+      <div class="column_container">
+        <div class="container contact text-center">
+          <p class="mt-3">{{'footer.Contact-tittle' | translate}}</p>
+          <a class="footer-link">info@sudafrica.unam.mx</a>
+          <p class="no-m">Endratch & Jorissen Street Johannesburgo</p>
+          <a class="footer-link">+525512345678</a>
+        </div>
+      </div>
+      <p class="copy_hidden" style="display: none;">
+        &copy;{{'footer.Copy' | translate}} CEM - SUDAFRICA 2022
+      </p>
+   </div>
+ </footer>

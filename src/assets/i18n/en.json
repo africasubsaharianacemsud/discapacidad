@@ -1,4 +1,49 @@
 {
+  "momento_brujo": {
+    "biographics": {
+      "coplan": {
+        "title": "David B. Coplan Biography",
+        "content": "David B. Coplan is Professor and Chair of Social Anthropology at the University of the Witwatersrand, Johannesburg, South Africa.\n\nBorn in the USA, he has a B.A (Hons) from Williams College 1970; M.A. University of Ghana, 1974; M.A. Indiana University, 1976; Ph.D. Indiana University 1980. Dr. Coplan has carried out fieldwork in Lesotho, Swaziland, South Africa, Ghana, and the United States.\n\nHe has also held visiting appointments at institutions as diverse as the University of Basel, École des Hautes Études Sciences Sociales (Paris), and the University of Cape Town among others. He acted as the Chief Researcher for the “Mobilising Culture and Heritage for Nation Building” in South Africa’s Arts and Culture Department and worked as an ethnographic research consultant for the University of Pennsylvania Museum and International Library of African Music.\n\nProfessor's Coplan research interests include African ethnology, history, and theory of anthropology, performing arts, urban anthropology, culture change, social organization, and border studies. Today he is Prosor Emeritus, Social Anthropology, University of the Witwatersrand."
+      },
+      "frida": {
+        "title": "Frida Kahlo's Biography",
+        "content": "Frida Kahlo was born in 1907 and died in 1954 in Coyoacán, Mexico City. Her full name was Magdalena Carmen Frida Kahlo Calderón.\n\nShe studied at the German School and the National Preparatory School in Mexico City. In 1925, she suffered a tragic accident, the consequences of which endured until her death. During a long convalescence, Frida began to paint her face by copying it from a mirror mounted on the canopy of her bed. At first, she was a realist and painted portraits of family and friends, and also flowers. Later, though, because of the intensity of her feelings and her shattered body, she increasingly painted herself in dreamlike, sometimes brutal contexts. Some of her work has even been associated with surrealist tendencies because of its introspective character.\n\nIn 1929, she married Diego Rivera, whom she divorced in 1940 and remarried a year later. She taught painting at the Escuela de Artes Plasticas and was a member of the Seminary of Mexican Culture. In 1938, she mounted her first solo exhibition at the Julien Levy Gallery in New York. Her works were included in the 1939 \"Mexique\" Exhibition, presented at the Renou et Colle Gallery in Paris, as well as in other group shows presented in Mexico throughout her life.\n\nShe participated in the International Exhibition of Surrealism organised in 1940 at the Gallery of Modern Art in Mexico City. Important institutions such as the Museum of Modern Art in New York and the Georges Pompidou Centre in Paris house some of her works."
+      },
+      "leon": {
+        "title": "Leon Botha’s Biography",
+        "content": "Leon Botha was born in Cape Town, South Africa where he lived until his death. He was diagnosed with progeria at the age of 4. While he had no formal education in the arts, after graduating, he became a full time painter doing commissioned work.\n\nIn 2005, he successfully underwent surgery to prevent heart attacks due to progeria-related atherosclerosis.\n\nIn January 2007, Botha held his first exhibition entitled \"Liquid Sword; I am HipHop\". It portrayed Hip Hop culture as a way of life and was opened by Mr Fat of the South African Hip Hop group Brasse Vannie Kaap.\n\nIn March 2009, he opened his second exhibition featuring aspects of his life. When asked if the title ‘Liquid Swords; Slices of Lemon’ referred to the saying ‘If life gives you lemons, make lemonade’, Botha denied it, adding ‘Lemons? I slice them and serve them.’\n\nIn January 2010 he held the first exhibition of ‘Who Am I?... Transgressions’, a collaborative photography work with Gordon Clark at the João Ferreira Gallery in Cape Town. About the exhibition, Botha stated ‘First I am, like you, a spiritual being. Then I am a human being and this part of the human being, which is the body, has a condition.’\n\nBotha also practised deejaying and toasting under the name DJ Solarize. He was featured alongside Watkin Tudor Jones (also known as Ninja), in Die Antwoord's Enter The Ninja video.\n\nIn November 2010, Botha suffered a stroke. He died of cardiac arrest a day after his 26th birthday, in 2011."
+      }
+    },
+    "31_day": {
+      "day": "Monday, October 31st, 2022",
+      "event1": {
+        "hour": "10:00 a.m",
+        "title": "Meet-up at the Wits Art Museum Lobby, Cr of Jorissen and Bertha Street",
+        "content": "Meeting point in the Wits Art Museum Lobby. Participants will gather here and will be taken to view the Mexican display honouring Frida Kahlo and Leon Botha."
+      },
+      "event2": {
+        "hour": "11:00 to 14:00",
+        "title": "Inauguration and Ofrenda presentation at the Spanish Resource Centre.",
+        "content": "Here, UNAM-South Africa’s Día de Muertos 2022 will be inaugurated followed by a brief presentation on Mexico’s Day of the Dead and the Ofrenda (a traditional altar associated with this festival). Catering will include traditional Day of the Dead snacks like hot chocolate and Pan de Muerto (Bread of the Dead)."
+      }
+    },
+    "1_day": {
+      "day": "Tuesday, November 1st, 2022",
+      "event1": {
+        "hour": "11:00 to 13:00",
+        "title": "Film screening at the Spanish Resource Centre.",
+        "content": "In commemoration of the Day of the Dead, ‘Coco’, a film representative of Mexican culture will be screened, bringing viewers a sample of what this special day means to Mexicans. Guests can expect popcorn and Mexican snacks to accompany the film.\n\nCatrina face-painting will also be provided by Mexican Studies Centre staff."
+      }
+    },
+    "2_day": {
+      "day": "Wednesday, November 2nd, 2022",
+      "event1": {
+        "hour": "10:00 to 14:00",
+        "title": "Calaverita workshop.",
+        "content": "Guests will learn about the Calaverita - a skeleton mannequin associated with Day of the Dead.. The explanation will be followed by a workshop where guests can build their own Calaverita. All at the Spanish Resource Centre.\n\nMexican snacks will be provided"
+      }
+    }
+  },
   "prefixUrlImg": "/assets/img/en/{{image}}",
   "prefixUrlpdf": "/assets/pdfs/{{pdf}}",
   "toolbar": {
@@ -10,6 +55,8 @@
     "news": "News",
     "tools": "Tools",
     "credits": "Credits",
+    "biographics": "Biographics",
+    "moments": "Moments",
     "logo": "/assets/img/en/Disability-color-blanco.png",
     "changeLanguage": "Change language to Spanish"
   },
@@ -117,6 +164,16 @@
           "software": {
             "title": "Learn and write",
             "description": "UNAM-developed software teaches literacy to children with disabilities."
+          }
+        },
+        "october": {
+          "flag": {
+            "title": "The disability flag",
+            "description": "The flag represents and celebrates disabled persons' efforts to overcoming challenges."
+          },
+          "dawarfism": {
+            "title": "International Dwarfism Awareness Day",
+            "description": "World Short People's Day has been celebrated since 2013 at the request of the group Little People of America'."
           }
         }
       }

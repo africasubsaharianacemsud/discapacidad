@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -10,7 +11,10 @@ export class AppComponent {
   public title = 'disacpacidad';
   public isToolbarHiden: boolean = false;
 
-  constructor(private translate: TranslateService) {
+  constructor(
+    private translate: TranslateService,
+    public router: Router
+  ) {
     if(!document.cookie.includes('lang')) {
       document.cookie = "lang=en"
       window.location.href = '/'
@@ -40,5 +44,9 @@ export class AppComponent {
 
   public showToolbar = (isHidden: boolean) =>  {
     this.isToolbarHiden = isHidden;
+  }
+
+  public navigateTo = (url: String) => {
+    this.router.navigate([url]);
   }
 }

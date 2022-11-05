@@ -1,0 +1,223 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 120px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  // background: rgba(182, 2, 96, 1);
+  // background: rgba(169, 134, 9, 1);
+  z-index: 1;
+  background: rgba(254, 129, 0, 1);
+
+  .hamburguer {
+    display: none;
+    transition: color 0.2s linear;
+    color: black;
+  }
+
+  .hamburguer:hover {
+    color: rgba(255, 45, 155, 1);
+  }
+
+  .tb_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .tb_list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 20px;
+    margin: 0;
+
+  }
+
+  .tb_list li a {
+    color: rgba(109, 3, 103, 1);
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .tb_list li a:hover {
+    color: rgba(255, 45, 155, 1);
+  }
+
+
+  .tb_list .tb_list_title {
+    display: none;
+  }
+  .tb_list .tb_list_button {
+    display: none;
+  }
+
+  .logos {
+    img {
+      margin: 0 20px;
+    }
+  }
+
+  .phantom {
+    width: 20%;
+  }
+}
+
+.tb_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    padding: 0 10px;
+  }
+}
+
+.tb_button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1200px) {
+  .tb_list li {
+    padding: 10px !important;
+  }
+  .imgCEM {
+    width: 160px;
+    height: 35px;
+  }
+  .imgDiscapacidad {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .toolbar .phantom {
+    width: 10px;
+    height: 20px;
+  }
+  .imgDiscapacidad {
+    margin: 12px !important;
+  }
+  .toolbar .tb_list li a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .imgCEM {
+    width: 130px;
+    height: 32px;
+    margin: 10px !important;
+  }
+  .imgDiscapacidad {
+    margin: 10px !important;
+  }
+  .toolbar .tb_list li a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .toolbar {
+    position: fixed;
+    height: 80px;
+    padding: 0 25px;
+    justify-content: space-between;
+
+    .hamburguer {
+      display: block;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .imgCEM {
+      width: 160px;
+      height: 35px;
+    }
+    .imgDiscapacidad {
+      height: 40px;
+    }
+    .tb_list {
+      // display: none;
+      position: fixed;
+      flex-direction: column;
+      justify-content: flex-start;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 80%;
+      max-width: 350px;
+      background: rgba(109, 3, 103, 0.3);
+    }
+    .tb_list li {
+      width: 100%;
+      height: 60px;
+      padding: 0;
+      background: rgba(0, 0, 0, 0.7);
+    }
+    .tb_list li:hover {
+      width: 100%;
+      background: rgba(255, 229, 18, 1);
+    }
+    .tb_list li a {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      padding: 0 20px;
+      font-size: 16px;
+      color: rgba(255, 45, 155, 1);
+      // border-bottom: solid 1px gray;
+    }
+    .tb_list .tb_list_title {
+      display: flex;
+      justify-content: flex-start;
+      color: white;
+      height: 80px;
+      font-size: 20px;
+      padding: 0 20px;
+      border-bottom: solid 1px white;
+      background-color: rgba(109, 3, 103, 1);
+      pointer-events: none;
+    }
+    .tb_list .tb_button {
+      display: flex;
+      border-top: 1px solid white;
+    }
+    .logos {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+
+      img {
+        margin: 0;
+        margin-left: 20px;
+      }
+    }
+  }
+  .tb_button {
+    display: none;
+  }
+}

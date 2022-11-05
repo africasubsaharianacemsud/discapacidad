@@ -1,4 +1,49 @@
 {
+  "momento_brujo": {
+    "biographics": {
+      "coplan": {
+        "title": "Biografía de David B. Coplan",
+        "content": "David B. Coplan es profesor y catedrático de Antropología Social en la Universidad de Witwatersrand, Johannesburgo, Sudáfrica.\n\nNacido en EE.UU., es licenciado (con honores) por el Williams College en 1970; máster en la Universidad de Ghana, 1974; máster en la Universidad de Indiana, 1976; doctorado en la Universidad de Indiana, 1980. El Dr. Coplan ha realizado trabajos de campo en Lesoto, Suazilandia, Sudáfrica, Ghana y Estados Unidos.\n\nTambién ha sido invitado a instituciones tan diversas como la Universidad de Basilea, la École des Hautes Études Sciences Sociales (París) y la Universidad de Ciudad del Cabo, entre otras. Actuó como investigador jefe del proyecto \"Movilización de la cultura y el patrimonio para la construcción de la nación\" en el Departamento de Arte y Cultura de Sudáfrica y trabajó como consultor de investigación etnográfica para el Museo de la Universidad de Pensilvania y la Biblioteca Internacional de Música Africana.\n\nLos intereses de investigación del profesor Coplan incluyen la etnología africana, la historia y la teoría de la antropología, las artes escénicas, la antropología urbana, el cambio cultural, la organización social y los estudios fronterizos. En la actualidad es Prosor Emérito de Antropología Social de la Universidad de Witwatersrand."
+      },
+      "frida": {
+        "title": "Biografía de Frida Kahlo",
+        "content": "Nació en 1907 y murió en 1954 en Coyoacán, Ciudad de México. Su nombre completo era Magdalena Carmen Frida Kahlo Calderón.\n\nEstudió en el Colegio Alemán y en la Escuela Nacional Preparatoria de la Ciudad de México. En 1925, sufrió un trágico accidente cuyas consecuencias padeció hasta su muerte. Durante una larga convalecencia, empezó a pintar su rostro copiándolo de un espejo montado en el dosel de la cama. Primero, fue realista y retrató a familiares y amigos, también gustó de pintar flores. Pero después, a causa de la intensidad de sus sentimientos y de un cuerpo destrozado, pintó más y más su propia imagen combinada con expresiones oníricas, en ocasiones brutales. Incluso, parte de su obra se ha asociado a tendencias surrealistas por su carácter introspectivo.\n\nEn 1929, contrajo nupcias con Diego Rivera de quien se divorció en 1940 para volverse a casar con él un año después. Fue maestra de pintura en la Escuela de Artes Plásticas y miembro del seminario de Cultura Mexicana. En 1938, montó su primera exposición individual en la Julien Levy Gallery de Nueva York. Trabajos de ella fueron incluidos en la Exposición \"Mexique\" de 1939, que se presentó en la Galería Renou et Colle de París, así como en otras muestras colectivas que a lo largo de su vida se presentaron en México.\n\nParticipó en la Exposición Internacional del Surrealismo organizada en 1940 en la Galería de Arte Moderno en la ciudad de México. Instituciones tan importantes como el Museo de Arte Moderno de Nueva York y el Centro Georges Pompidou de París alojan algunas de sus obras."
+      },
+      "leon": {
+        "title": "Biografía de Leon Botha",
+        "content": "Botha nació en Ciudad del Cabo, Sudáfrica donde vivió hasta su muerte. Fue diagnosticado con progeria a la edad de 4 años. Si bien no tuvo educación formal en artes, luego de graduarse se convirtió en un pintor de tiempo completo haciendo trabajos por encargo.\n\nEn 2005 se sometió exitosamente a una cirugía para prevenir ataques cardíacos debido a una aterosclerosis relacionada con progeria.\n\nEn enero de 2007, Botha celebró su primera exhibición titulada \"Liquid Sword; I am HipHop\". En ella retrató la cultura del Hip hop como una forma de vida y fue inaugurada por Mr Fat del grupo sudafricano de Hip hop Brasse Vannie Kaap.\n\nEn marzo de 2009, inauguró su segunda exhibición en la que presentaba aspectos de su vida. Al preguntársele si el título \"Liquid Swords; Slices of Lemon\" (Espadas líquidas; rodajas de limón) se refería al refrán \"Si la vida te da limones, haz limonada\". Botha lo negó, agregando \"¿Limones? Los corto y los sirvo\".\n\nEn enero de 2010 celebró la primera exhibición de \"Who Am I?...Transgressions\", un trabajo colaborativo de fotografía con Gordon Clark en la galería João Ferreira de Ciudad del Cabo. Sobre la exhibición, Botha afirmó \"Primero soy, al igual que ustedes, un ser espiritual. Luego soy un ser humano y esta parte del ser humano que es el cuerpo, tiene una condición\"\n\nBotha también practicó deejaying y toasting bajo el nombre de DJ Solarize. Se lo presentó junto con Watkin Tudor Jones (también conocido como Ninja), en el vídeo Enter The Ninja de Die Antwoord.\n\nEn noviembre de 2010, Botha sufrió un accidente cerebrovascular. Murió de un paro cardíaco un día después de cumplir 26 años, en 2011."
+      }
+    },
+    "31_day": {
+      "day": "Lunes, 31 de octubre de 2022",
+      "event1": {
+        "hour": "10:00 a.m",
+        "title": "Encuentro en el vestíbulo del Museo de Arte de Wits Cr de Jorissen y Bertha Street",
+        "content": "Punto de encuentro en el Lobby del Museo de Arte de Wits, para reunir a las personas que vendrán a ver la ofrenda mexicana en honor a Frida Kahlo y Leon Botha."
+      },
+      "event2": {
+        "hour": "11:00 a 14:00",
+        "title": "Inauguración y presentación de la Ofrenda (altar tradicional del Día de los Muertos) en el Centro de Estudios Mexicanos en Wits.",
+        "content": "Inauguración de la ofrenda 2022 México y Sudáfrica, breve presentación sobre el Día de Muertos en México y catering con bocadillos tradicionales del Día de Muerto (chocolate caliente y pan de muerto)."
+      }
+    },
+    "1_day": {
+      "day": "Martes, 1 de noviembre de 2022",
+      "event1": {
+        "hour": "11:00 a 13:00",
+        "title": "Proyección de la película \"Coco\" en el Centro de Estudios Mexicanos.",
+        "content": "En conmemoración del Día de Muerto, se proyectará la película \"Coco\", una película representativa de México que introduce a los espectadores a la cultura mexicana en este día tan especial.\n\nLos invitados también podrán disfrutar de pintar sus rostros pintados como catrines y catrinas por el Staff del Centro. Se espera que los invitados disfruten de la película con palomitas y bocadillos mexicanos."
+      }
+    },
+    "2_day": {
+      "day": "Miércoles, 2 de noviembre de 2022",
+      "event1": {
+        "hour": "10:00 a 14:00",
+        "title": "Taller de Calaveritas",
+        "content": "Explicación y creación de Calaveritas para los invitados, una tradición mexicana para pedir dulces, les espera en el Centro de Recursos en Español. El personal les dará la bienvenida con bocadillos mexicanos."
+      }
+    }
+  },
   "prefixUrlImg": "/assets/img/es/{{image}}",
   "prefixUrlpdf": "/assets/pdfs/{{pdf}}",
   "toolbar": {
@@ -10,6 +55,8 @@
     "news": "Noticias",
     "tools": "Herramientas",
     "credits": "Creditos",
+    "biographics": "Biografías",
+    "moments": "Momentos",
     "logo": "/assets/img/es/Disability-color-blanco.png",
     "changeLanguage": "Cambiar el idioma a inglés"
   },
@@ -117,6 +164,16 @@
           "software": {
             "title": "Aprende y escribe",
             "description": "La UNAM desarrolló un software para aprender a leer y escribir dirigido a niños con discapacidad"
+          }
+        },
+        "october": {
+          "flag": {
+            "title": "La bandera de la discapacidad",
+            "description": "Simboliza la superación y el esfuerzo de las personas con discapacidad."
+          },
+          "dawarfism": {
+            "title": "Día Mundial de las Personas de Talla Baja",
+            "description": "El Día Mundial de las Personas de Talla Baja se conmemora desde el 2013 a petición del grupo \"Little People of America\""
           }
         }
       }
